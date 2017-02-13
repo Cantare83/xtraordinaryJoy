@@ -1,5 +1,5 @@
-# Blank Template
+# Xtraordinary Joy
 
-##Author: Christina Hendricks
+##Author: Ashley Cohen, Andy DiBella & Christina Hendricks
 
-Blank WordPress Template for Web Interactivity and Engagement Course
+WordPress Theme for Xtraordinary Joy, Inc.
