@@ -5,7 +5,7 @@ Author: Ashley Cohen, Andy DiBella & Christina Hendricks
 Description: Theme for Xtraordinary Joy, Inc.
 Version: 0.1
 License: Open
-Text Domain: 
+Text Domain:
 */
 
 @import url("stylesheets/normalize.css");
@@ -46,6 +46,19 @@ a {
     color: #39b589;
     font-style: bold;
     text-decoration: none;
+}
+
+/*--- Header --- */
+.site-logo {
+    width: 100%;
+}
+
+header p {
+  margin-top: 2em;
+}
+
+header .button {
+  margin-top: 1.5em;
 }
 
 /*--- Menu --- */
