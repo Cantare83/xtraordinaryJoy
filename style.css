@@ -10,16 +10,22 @@ Text Domain:
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+@font-face {
+    font-family: caviarDreams;
+    src: url("font/caviar_dreams_bold.ttf");
+}
 
 html, body{
-    color: #000000;
-    font-size: 14px;
+    color: #7f7f7f;
+    font-size: 16px;
     line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #29293d;
-    font-weight: 700;
+    color: #69c9ca;
+    font-family: caviarDreams;
 }
 
 h1 {
@@ -43,9 +49,24 @@ h5 {
 }
 
 a {
-    color: #39b589;
-    font-style: bold;
+    color: #ff3366;
     text-decoration: none;
+}
+
+.button {
+    background-color: #ff3366;
+    color: #ffffff;
+    border: none;
+    font-family: caviarDreams;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #ff3366;
+    border: solid #ff3366 .5px;
+    font-family: caviarDreams;
+    font-size: 16px;
 }
 
 /*--- Header --- */
@@ -54,35 +75,39 @@ a {
 }
 
 header p {
-  margin-top: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
 }
 
 header .button {
-  margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 /*--- Menu --- */
 
-.blank-menu-header {
-    text-align: left;
-    margin-top: 40px;
+.menu-header {
+    text-align: center;
+    margin-top: 10px;
+    border-top: solid #7f7f7f .5px;
+    border-bottom: solid #7f7f7f .5px;
 }
-.blank-menu-header ul {
-    margin: 0;
-    padding: 0;
+.menu-header ul {
+    margin: 10px;
     list-style-type: none;
     list-style-image: none;
 }
-.blank-menu-header li {
+.menu-header li {
     display: inline;
 }
-.blank-menu-header ul li a {
+.menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 5px 40px;
-    font-weight: 300;
+    padding: 10px 60px 10px 60px;
     font-size: 1.1rem;
+    color: #69c9ca;
+    text-transform: capitalize;
 }
-.blank-menu-header ul li a:hover {
-    color: #cccccc;
+.menu-header ul li a:hover {
+    color: #ffffff;
+    background-color: #69c9ca;
 }
