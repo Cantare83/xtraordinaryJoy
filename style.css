@@ -91,3 +91,15 @@ header .button {
     color: #ffffff;
     background-color: #69c9ca;
 }
+
+/*-- Contact Page --*/
+
+.contactimage {
+    border-radius: 50%;
+    width: 90%;
+    text-align: center;
+}
+
+.contactform {
+    margin: auto;    
+}
