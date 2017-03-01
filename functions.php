@@ -88,4 +88,21 @@ function custom_web_resources() {
     register_post_type( 'links', $args );
 }
 add_action('init', 'custom_web_resources');
+
+/*--- Enqueing JQuery Files ---*/
+
+wp_deregister_script('jquery');
+
+wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.1.1.min.js','','',true);
+
+function enqueue_navigation_js() {
+  wp_enqueue_script(
+    'wpb_togglemenu',
+    get_template_directory_uri() . '/js/navigation.js', array('jquery'),
+    '20160909',
+    true
+  );
+}
+add_action('wp_enqueue_scripts', 'enqueue_navigation_js');
+
 ?>
