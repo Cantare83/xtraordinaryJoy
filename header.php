@@ -22,7 +22,7 @@
               <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
             </div>
           </section>
-          <section class="row">
+          <section class="row headerNav">
               <div class="twelve columns">
                   <?php
                       wp_nav_menu( array(
