@@ -59,6 +59,8 @@ a {
 /*--- Header --- */
 .site-logo {
     width: 100%;
+    position: relative;
+    margin-top: 1em;
 }
 
 header p {
@@ -68,6 +70,18 @@ header p {
 
 header .button {
     margin-top: 1.5em;
+}
+
+header .button, .headerInfo {
+    visibility: hidden;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    header .button, .headerInfo {
+      visibility: visible;
+      position: inherit;
+    }
 }
 
 /*--- Menu --- */

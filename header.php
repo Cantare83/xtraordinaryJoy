@@ -15,7 +15,7 @@
             <div class="five columns">
                 <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
             </div>
-            <div class="four columns">
+            <div class="four columns headerInfo">
               <p>info@xtraordinaryjoy.org</p>
             </div>
             <div class="three columns">
