@@ -1,32 +1,17 @@
-( function() {
-	var nav = document.getElementById( 'site-navigation' ), button, menu;
-	if ( ! nav ) {
-		return;
-	}
+$(document).ready(function(){
+	$('nav a.mobile_menu').on('click', function(){
+		var currentNavHeight = $('nav').height();
+		if(currentNavHeight < 5){
 
-	button = nav.getElementsByTagName( 'button' )[0];
-	menu   = nav.getElementsByTagName( 'ul' )[0];
-	if ( ! button ) {
-		return;
-	}
+			var newNavHeight = $('nav > ul').height + 15;
+			$('nav').animate({'height':newNavHeight+'px'},750);
 
-	// Hide button if menu is missing or empty.
-	if ( ! menu || ! menu.childNodes.length ) {
-		button.style.display = 'none';
-		return;
-	}
+		}else{
 
-	button.onclick = function() {
-		if ( -1 === menu.className.indexOf( 'nav-menu' ) ) {
-			menu.className = 'nav-menu';
+			$('nav').animate({'height':'0px'},750, function(){
+				$(this).removeAttr('style');
+			});
+
 		}
-
-		if ( -1 !== button.className.indexOf( 'toggled-on' ) ) {
-			button.className = button.className.replace( ' toggled-on', '' );
-			menu.className = menu.className.replace( ' toggled-on', '' );
-		} else {
-			button.className += ' toggled-on';
-			menu.className += ' toggled-on';
-		}
-	};
-} )(jQuery);
+	})
+});

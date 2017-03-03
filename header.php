@@ -23,7 +23,7 @@
             </div>
           </section>
           <section class="row headerNav">
-              <div class="twelve columns">
+              <nav class="twelve columns">
                 <a class="mobile_menu" title="menu" href="#"></a>
                   <?php
                       wp_nav_menu( array(
@@ -31,6 +31,6 @@
                           'container_class' => 'menu-header'
                       ));
                   ?>
-              </div>
+              </nav>
             </section>
         </header>
