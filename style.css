@@ -168,6 +168,10 @@ a.mobile_menu {
     background-color: #69c9ca;
     padding: 0px;
 }
+
+a.mobile_menu {
+  display: none;
+}
 }
 
 /*-- Contact Page --*/
