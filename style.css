@@ -58,9 +58,15 @@ a {
 
 /*--- Header --- */
 .site-logo {
-    width: 100%;
+    width: 80%;
     position: relative;
     margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+    .site-logo{
+      width: 100%;
+    }
 }
 
 header p {
@@ -84,8 +90,46 @@ header .button, .headerInfo {
     }
 }
 
+/*--- Mobile Menu --- */
+
+a.mobile_menu {
+    width: 40px;
+    height: 40px;
+    background: url("images/icon_menu.svg") no-repeat 0 0;
+    background-size: contain;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+}
+
+.menu-header ul {
+  display: block;
+  margin: 10px;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.menu-header ul li a {
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.menu-header ul li {
+    background-color: #69c9ca;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-header ul li:hover {
+    background-color: #ff3366;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
 /*--- Menu --- */
 
+@media (min-width: 768px){
 .menu-header {
     text-align: center;
     margin-top: 10px;
@@ -100,6 +144,12 @@ header .button, .headerInfo {
 .menu-header li {
     display: inline;
 }
+
+.menu-header ul li {
+    background-color: #ffffff;
+    padding: 0px;
+}
+
 .menu-header ul li a {
     text-decoration:none;
     margin: 4px;
@@ -108,9 +158,16 @@ header .button, .headerInfo {
     color: #69c9ca;
     text-transform: capitalize;
 }
-.menu-header ul li a:hover {
+
+.menu-header ul li a:hover{
     color: #ffffff;
+    margin: 0px;
+}
+
+.menu-header ul li:hover {
     background-color: #69c9ca;
+    padding: 0px;
+}
 }
 
 /*-- Contact Page --*/

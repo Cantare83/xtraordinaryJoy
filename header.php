@@ -24,6 +24,7 @@
           </section>
           <section class="row headerNav">
               <div class="twelve columns">
+                <a class="mobile_menu" title="menu" href="#"></a>
                   <?php
                       wp_nav_menu( array(
                           'sort_column' => 'menu-order',
