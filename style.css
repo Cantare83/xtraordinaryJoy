@@ -102,6 +102,11 @@ a.mobile_menu {
     left: 90%;
 }
 
+.menu-header {
+  height: 0;
+  overflow: hidden;
+}
+
 .menu-header ul {
   display: block;
   margin: 10px;
@@ -135,6 +140,7 @@ a.mobile_menu {
     margin-top: 10px;
     border-top: solid #7f7f7f .5px;
     border-bottom: solid #7f7f7f .5px;
+    height: auto;
 }
 .menu-header ul {
     margin: 10px;
