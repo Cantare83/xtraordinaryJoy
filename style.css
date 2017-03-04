@@ -124,3 +124,16 @@ header .button, .headerInfo {
 .contactform {
     margin: auto;
 }
+
+/*-- Blog Index Page --*/
+
+.blogposts img {
+    border-radius: 50%;
+}
+
+.blogposts {
+	margin: 1em;
+	padding: 0.5em;
+	overflow: hidden;
+	color: #ffffff;
+}
