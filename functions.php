@@ -46,6 +46,16 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+    /*--- Fourth Footer Widget ---*/
+    register_sidebar( array(
+        'name'          => ('Fourth Footer Widget'),
+        'id'            => 'footer-four',
+        'description'   => 'Fourth footer in the footer',
+        'before_widget' => '<div class="widget-footer widget-four">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
 }
 add_action('widgets_init', 'blank_widgets_init');
 
