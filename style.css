@@ -92,7 +92,7 @@ header .button, .headerInfo {
 
 /*--- Mobile Menu --- */
 
-a.mobile_menu {
+nav a.mobile_menu {
     width: 40px;
     height: 40px;
     background: url("images/icon_menu.svg") no-repeat 0 0;
@@ -100,11 +100,6 @@ a.mobile_menu {
     position: absolute;
     top: 2%;
     left: 90%;
-}
-
-.menu-header {
-  height: 0;
-  overflow: hidden;
 }
 
 .menu-header ul {
@@ -130,6 +125,16 @@ a.mobile_menu {
     background-color: #ff3366;
     margin-bottom: 0;
     padding: 10px;
+}
+
+nav {
+    height: 0;
+    overflow: hidden;
+}
+
+.menuOpen{
+    height: auto;
+    overflow: visible;
 }
 
 /*--- Menu --- */
@@ -175,7 +180,7 @@ a.mobile_menu {
     padding: 0px;
 }
 
-a.mobile_menu {
+nav a.mobile_menu {
   display: none;
 }
 }
