@@ -13,6 +13,89 @@ function blank_widgets_init() {
         'after_title'   => '</h2>'
     ));
 
+    /*--- Index Page Widgets ---*/
+    register_sidebar( array(
+      'name'          => ('Intro 1 Widget'),
+      'id'            => 'home-intro1-widget',
+      'description'   => 'Widget intro image on homepage',
+      'before_widget' => '<div class="home-intro1-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h1>',
+      'after_title'   => '</h1>'
+    ));
+    register_sidebar( array(
+      'name'          => ('Intro 2 Widget'),
+      'id'            => 'home-intro2-widget',
+      'description'   => 'Widget intro copy on homepage',
+      'before_widget' => '<div class="home-intro2-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h1>',
+      'after_title'   => '</h1>'
+    ));
+    register_sidebar( array(
+    'name'          => ('About 1 Widget'),
+    'id'            => 'home-about1-widget',
+    'description'   => 'Widget about copy on homepage',
+    'before_widget' => '<div class="home-about1-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>'
+  ));
+  register_sidebar( array(
+    'name'          => ('About 2 Widget'),
+    'id'            => 'home-about2-widget',
+    'description'   => 'Widget about image on homepage',
+    'before_widget' => '<div class="home-about2-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>'
+  ));
+  register_sidebar( array(
+  'name'          => ('Events 1 Widget'),
+  'id'            => 'home-events1-widget',
+  'description'   => 'Widget events video on homepage',
+  'before_widget' => '<div class="home-events1-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>'
+));
+register_sidebar( array(
+  'name'          => ('Events 2 Widget'),
+  'id'            => 'home-events2-widget',
+  'description'   => 'Widget events copy on homepage',
+  'before_widget' => '<div class="home-events2-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>'
+));
+  register_sidebar( array(
+'name'          => ('Resources 1 Widget'),
+'id'            => 'home-resources1-widget',
+'description'   => 'Widget resources section 1 on homepage',
+'before_widget' => '<div class="home-resources1-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+register_sidebar( array(
+'name'          => ('Resources 2 Widget'),
+'id'            => 'home-resources2-widget',
+'description'   => 'Widget resources section 2 on homepage',
+'before_widget' => '<div class="home-resources2-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+register_sidebar( array(
+'name'          => ('Resources 3 Widget'),
+'id'            => 'home-resources3-widget',
+'description'   => 'Widget resources section 3 on homepage',
+'before_widget' => '<div class="home-resources3-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
     /*--- First Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('First Footer Widget'),
