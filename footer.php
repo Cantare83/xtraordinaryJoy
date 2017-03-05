@@ -29,17 +29,17 @@
     </div>
           <!-- End Footer Contact Space -->
 
-            <!-- Begin Sponsor Links  -->
-      <div class="row">
-        <div class="twelve columns">
-          <div class="sponsor">
+         <!-- Begin Sponsor Links  -->
+    <div class="row">
+      <div class="twelve columns">
+        <div class="sponsor">
             <h3>Thank You to our wonderful sponsors!</h3>
-          </div>
-          <?php dynamic_sidebar('footer-four'); ?>
         </div>
+          <?php dynamic_sidebar('footer-four'); ?>
       </div>
+    </div>
           <!-- End Sponsor Links -->
-    </footer>
-  </div>
+  </footer>
+</div>
 </body>
 </html>
