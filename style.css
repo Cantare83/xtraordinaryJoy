@@ -17,14 +17,14 @@ Text Domain:
 }
 
 html, body{
-    color: #7f7f7f;
+    color: #7f7f7f;     /*gray color*/
     font-size: 16px;
     line-height: 1.5em;
     font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #69c9ca;
+    color: #69c9ca;     /*turquoise color*/
     font-family: caviarDreams;
 }
 
@@ -36,7 +36,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 a {
-    color: #ff3366;
+    color: #ff3366;     /*pink color*/
     text-decoration: none;
 }
 
@@ -60,13 +60,20 @@ a {
 .site-logo {
     width: 80%;
     position: relative;
-    margin-top: 1em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    padding: 2%;
 }
 
 @media (min-width: 768px) {
     .site-logo{
       width: 100%;
     }
+}
+
+header {
+  background-color: #69c9ca;
 }
 
 header p {
@@ -84,6 +91,9 @@ header .button, .headerInfo {
 }
 
 @media (min-width: 768px) {
+    header {
+      background-color: #ffffff;
+    }
     header .button, .headerInfo {
       visibility: visible;
       position: inherit;
@@ -98,7 +108,7 @@ nav a.mobile_menu {
     background: url("images/icon_menu.svg") no-repeat 0 0;
     background-size: contain;
     position: absolute;
-    top: 2%;
+    top: 6%;
     left: 90%;
 }
 
@@ -140,49 +150,54 @@ nav {
 /*--- Menu --- */
 
 @media (min-width: 768px){
-.menu-header {
-    text-align: center;
-    margin-top: 10px;
-    border-top: solid #7f7f7f .5px;
-    border-bottom: solid #7f7f7f .5px;
-    height: auto;
-}
-.menu-header ul {
-    margin: 10px;
-    list-style-type: none;
-    list-style-image: none;
-}
-.menu-header li {
-    display: inline;
-}
+    .menu-header {
+        text-align: center;
+        margin-top: 10px;
+        border-top: solid #7f7f7f .5px;
+        border-bottom: solid #7f7f7f .5px;
+        height: auto;
+    }
+    .menu-header ul {
+        margin: 10px;
+        list-style-type: none;
+        list-style-image: none;
+    }
+    .menu-header li {
+        display: inline;
+    }
 
-.menu-header ul li {
-    background-color: #ffffff;
-    padding: 0px;
-}
+    .menu-header ul li {
+        background-color: #ffffff;
+        padding: 0px;
+    }
 
-.menu-header ul li a {
-    text-decoration:none;
-    margin: 4px;
-    padding: 10px 60px 10px 60px;
-    font-size: 1.1rem;
-    color: #69c9ca;
-    text-transform: capitalize;
-}
+    .menu-header ul li a {
+        text-decoration:none;
+        margin: 4px;
+        padding: 10px 60px 10px 60px;
+        font-size: 1.1rem;
+        color: #69c9ca;
+        text-transform: capitalize;
+    }
 
-.menu-header ul li a:hover{
-    color: #ffffff;
-    margin: 0px;
-}
+    .menu-header ul li a:hover{
+        color: #ffffff;
+        margin: 0px;
+    }
 
-.menu-header ul li:hover {
-    background-color: #69c9ca;
-    padding: 0px;
-}
+    .menu-header ul li:hover {
+        background-color: #69c9ca;
+        padding: 0px;
+    }
 
-nav a.mobile_menu {
-  display: none;
-}
+    nav {
+        height: auto;
+        visibility: visible;
+    }
+
+    nav a.mobile_menu {
+        display: none;
+    }
 }
 
 /*-- Contact Page --*/
