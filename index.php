@@ -18,10 +18,10 @@
     </div>
 </section>
 <section class="row">  <!-- Events Section -->
-    <div class="eight columns">
+    <div class="seven columns">
       <?php dynamic_sidebar('home-events1-widget'); ?>
     </div>
-    <div class="four columns">
+    <div class="five columns">
       <?php dynamic_sidebar('home-events2-widget'); ?>
     </div>
 </section>
