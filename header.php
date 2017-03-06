@@ -19,7 +19,7 @@
               <p>info@xtraordinaryjoy.org</p>
             </div>
             <div class="three columns">
-              <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
+              <a class="button" href="http://www.chrisihendricks.net/xtraordinaryjoy/donations/donate-today/">Donate</a>
             </div>
           </section>
           <section class="row headerNav">
