@@ -68,33 +68,8 @@ register_sidebar( array(
   'before_title'  => '<h2>',
   'after_title'   => '</h2>'
 ));
-  register_sidebar( array(
-'name'          => ('Resources 1 Widget'),
-'id'            => 'home-resources1-widget',
-'description'   => 'Widget resources section 1 on homepage',
-'before_widget' => '<div class="home-resources1-widget">',
-'after_widget'  => '</div>',
-'before_title'  => '<h3>',
-'after_title'   => '</h3>'
-));
-register_sidebar( array(
-'name'          => ('Resources 2 Widget'),
-'id'            => 'home-resources2-widget',
-'description'   => 'Widget resources section 2 on homepage',
-'before_widget' => '<div class="home-resources2-widget">',
-'after_widget'  => '</div>',
-'before_title'  => '<h3>',
-'after_title'   => '</h3>'
-));
-register_sidebar( array(
-'name'          => ('Resources 3 Widget'),
-'id'            => 'home-resources3-widget',
-'description'   => 'Widget resources section 3 on homepage',
-'before_widget' => '<div class="home-resources3-widget">',
-'after_widget'  => '</div>',
-'before_title'  => '<h3>',
-'after_title'   => '</h3>'
-));
+
+/*--- Footer Widgets ---*/
 
     /*--- First Footer Widget
     register_sidebar( array(
@@ -128,6 +103,34 @@ register_sidebar( array(
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
     )); ---*/
+
+    register_sidebar( array(
+  'name'          => ('Resources 1 Widget'),
+  'id'            => 'resources1-widget',
+  'description'   => 'Widget resources section 1 in footer',
+  'before_widget' => '<div class="resources1-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+  ));
+  register_sidebar( array(
+  'name'          => ('Resources 2 Widget'),
+  'id'            => 'resources2-widget',
+  'description'   => 'Widget resources section 2 in footer',
+  'before_widget' => '<div class="resources2-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+  ));
+  register_sidebar( array(
+  'name'          => ('Resources 3 Widget'),
+  'id'            => 'resources3-widget',
+  'description'   => 'Widget resources section 3 in footer',
+  'before_widget' => '<div class="resources3-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+  ));
 
     /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
