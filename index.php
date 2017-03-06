@@ -25,17 +25,6 @@
       <?php dynamic_sidebar('home-events2-widget'); ?>
     </div>
 </section>
-<section class="row">  <!-- Resources Section -->
-    <div class="four columns">
-      <?php dynamic_sidebar('home-resources1-widget'); ?>
-    </div>
-    <div class="three columns">
-      <?php dynamic_sidebar('home-resources2-widget'); ?>
-    </div>
-    <div class="three columns">
-      <?php dynamic_sidebar('home-resources3-widget'); ?>
-    </div>
-</section>
 <!-- End Main Content -->
 
 <?php get_footer(); ?>
