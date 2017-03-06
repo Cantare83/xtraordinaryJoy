@@ -6,13 +6,13 @@
         <h3>Research and Resources</h3>
       </div>
       <div class="four columns">
-          <?php dynamic_sidebar('footer-one'); ?>
+          <?php dynamic_sidebar('home-resources1-widget'); ?>
       </div>
       <div class="four columns">
-          <?php dynamic_sidebar('footer-two'); ?>
+          <?php dynamic_sidebar('home-resources2-widget'); ?>
       </div>
       <div class="four columns">
-          <?php dynamic_sidebar('footer-three'); ?>
+          <?php dynamic_sidebar('home-resources3-widget'); ?>
       </div>
     </div>
           <!-- End Research and Resources -->

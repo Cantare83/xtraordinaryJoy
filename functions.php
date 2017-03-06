@@ -96,7 +96,7 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
-    /*--- First Footer Widget ---*/
+    /*--- First Footer Widget
     register_sidebar( array(
         'name'          => ('First Footer Widget'),
         'id'            => 'footer-one',
@@ -107,7 +107,7 @@ register_sidebar( array(
         'after_title'   => '</h3>'
     ));
 
-    /*--- Second Footer Widget ---*/
+  Second Footer Widget
     register_sidebar( array(
         'name'          => ('Second Footer Widget'),
         'id'            => 'footer-two',
@@ -118,7 +118,7 @@ register_sidebar( array(
         'after_title'   => '</h3>'
     ));
 
-    /*--- Third Footer Widget ---*/
+     Third Footer Widget
     register_sidebar( array(
         'name'          => ('Third Footer Widget'),
         'id'            => 'footer-three',
@@ -127,7 +127,7 @@ register_sidebar( array(
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
-    ));
+    )); ---*/
 
     /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
