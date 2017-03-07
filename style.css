@@ -40,6 +40,10 @@ a {
     text-decoration: none;
 }
 
+p {
+  margin-bottom: auto;
+}
+
 .button {
     background-color: #ff3366;
     color: #ffffff;
