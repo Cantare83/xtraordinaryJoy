@@ -6,17 +6,16 @@
         <h3>Research and Resources</h3>
       </div>
       <div class="four columns">
-          <?php dynamic_sidebar('footer-one'); ?>
+          <?php dynamic_sidebar('resources1-widget'); ?>
       </div>
       <div class="four columns">
-          <?php dynamic_sidebar('footer-two'); ?>
+          <?php dynamic_sidebar('resources2-widget'); ?>
       </div>
       <div class="four columns">
-          <?php dynamic_sidebar('footer-three'); ?>
+          <?php dynamic_sidebar('resources3-widget'); ?>
       </div>
     </div>
           <!-- End Research and Resources -->
-
           <!-- Begin Footer Contact Space -->
     <div class="row">
       <div class="eight columns">
@@ -28,17 +27,14 @@
       </div>
     </div>
           <!-- End Footer Contact Space -->
-
          <!-- Begin Sponsor Links  -->
     <div class="row">
       <div class="twelve columns">
-        <div class="sponsor">
-            <h3>Thank You to our wonderful sponsors!</h3>
-        </div>
           <?php dynamic_sidebar('footer-four'); ?>
       </div>
     </div>
           <!-- End Sponsor Links -->
+
   </footer>
 </div>
 </body>
