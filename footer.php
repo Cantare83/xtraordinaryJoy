@@ -16,14 +16,6 @@
       </div>
     </div>
           <!-- End Research and Resources -->
-
-         <!-- Begin Sponsor Links  -->
-    <div class="row">
-      <div class="twelve columns">
-          <?php dynamic_sidebar('footer-four'); ?>
-      </div>
-    </div>
-          <!-- End Sponsor Links -->
           <!-- Begin Footer Contact Space -->
     <div class="row">
       <div class="eight columns">
@@ -35,6 +27,14 @@
       </div>
     </div>
           <!-- End Footer Contact Space -->
+         <!-- Begin Sponsor Links  -->
+    <div class="row">
+      <div class="twelve columns">
+          <?php dynamic_sidebar('footer-four'); ?>
+      </div>
+    </div>
+          <!-- End Sponsor Links -->
+
   </footer>
 </div>
 </body>
