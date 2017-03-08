@@ -39,7 +39,7 @@ a {
 }
 
 p {
-  margin-bottom: auto;
+    margin-bottom: auto;
 }
 
 .button {
@@ -200,6 +200,22 @@ nav {
     nav a.mobile_menu {
         display: none;
     }
+}
+
+/*-- Index Page --*/
+
+.hpIntro, .hpEvents {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.roundImage {
+    border-radius: 50%;
+}
+
+.hpAbout {
+    border-top: solid .5px #7f7f7f;
+    border-bottom: solid .5px #7f7f7f;
 }
 
 /*-- Contact Page --*/
