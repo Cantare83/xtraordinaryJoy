@@ -9,8 +9,8 @@ function blank_widgets_init() {
         'description'   => 'Widget for our sidebar on pages',
         'before_widget' => '<div class="widget-sidebar">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h2>',
-        'after_title'   => '</h2>'
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>'
     ));
 
     /*--- Index Page Widgets ---*/
@@ -219,5 +219,11 @@ function enqueue_navigation_js() {
   );
 }
 add_action('wp_enqueue_scripts', 'enqueue_navigation_js');
+
+/* Change Excerpt length */
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 ?>
