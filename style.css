@@ -244,3 +244,35 @@ nav {
 	overflow: hidden;
 	color: #ffffff;
 }
+/*-----Footer------*/
+.resources.four.columns {
+  width: 29%;
+}
+
+.resources.four.column {
+  width: 29%;
+}
+
+.resources.four.columns {
+  margin-left: 10px;
+}
+
+.resources.four.column {
+  margin-left: 10px;
+
+}
+.resources.four.columns:nth-child(2){
+  margin-left: 5%;
+}
+
+.resources.four.column:nth-child(2) {
+  margin-left: 5%;
+}
+
+.resources.four.columns:nth-child(3){
+  margin-left: 5%;
+}
+
+.resources.four.column:nth-child(3) {
+  margin-left: 5%;
+}

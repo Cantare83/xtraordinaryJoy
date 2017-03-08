@@ -2,6 +2,7 @@
   <footer class="footer-container">
     <div class="row">
         <!-- Begin Research & Resources -->
+    <div class="resources">
       <div class="researchtitle">
         <h3>Research and Resources</h3>
       </div>
@@ -15,6 +16,7 @@
           <?php dynamic_sidebar('resources3-widget'); ?>
       </div>
     </div>
+  </div>
           <!-- End Research and Resources -->
           <!-- Begin Footer Contact Space -->
     <div class="row">
