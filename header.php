@@ -8,6 +8,7 @@
           <!-- Links to our Style.css file -->
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
+        <script src="<?php echo get_template_directory_uri(); ?>/js/navigation.js"></script>
     </head>
     <body>
       <div class="container"> <!-- Begin Container Div -->
