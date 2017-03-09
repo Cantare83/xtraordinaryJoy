@@ -209,6 +209,7 @@ wp_deregister_script('jquery');
 
 wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.1.1.min.js','','',true);
 
+/*--- Not Working
 function enqueue_navigation_js() {
   wp_enqueue_script(
     'navigation_js',
@@ -219,5 +220,6 @@ function enqueue_navigation_js() {
   );
 }
 add_action('wp_enqueue_scripts', 'enqueue_navigation_js');
+---*/
 
 ?>
