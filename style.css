@@ -281,6 +281,25 @@ nav {
     }
 }
 
+/*-----Blog Post Page------*/
+
+.posttitle {
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.posttitle h3 {
+  margin-top: 10%;
+}
+
+.postimage img {
+  border-radius: 50%;
+  width: 40%
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /*-----Footer------*/
 .resources.four.columns {
   width: 29%;
