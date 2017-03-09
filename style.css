@@ -289,3 +289,10 @@ nav {
 .footer-container.four.column:nth-child(3) {
   margin-left: 5%;
 }
+.resources1, .resources2, .resources3 {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #66cccc;
+  border-radius: 25px;
+  margin-bottom: 8px;
+}
