@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php bloginfo('name'); ?></title>
         <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
@@ -23,13 +24,14 @@
             </div>
           </section>
           <section class="row headerNav">
-              <div class="twelve columns">
+              <nav class="twelve columns">
+                <a class="mobile_menu" title="menu" href="#"></a>
                   <?php
                       wp_nav_menu( array(
                           'sort_column' => 'menu-order',
                           'container_class' => 'menu-header'
                       ));
                   ?>
-              </div>
+              </nav>
             </section>
         </header>

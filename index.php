@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Begin Main Content -->
-<section class="row">  <!-- Intro Section -->
+<section class="row hpIntro">  <!-- Intro Section -->
     <div class="four columns">
       <?php dynamic_sidebar('home-intro1-widget'); ?>
     </div>
@@ -9,7 +9,7 @@
       <?php dynamic_sidebar('home-intro2-widget'); ?>
     </div>
 </section>
-<section class="row">  <!-- About Section -->
+<section class="row hpAbout">  <!-- About Section -->
     <div class="five columns">
       <?php dynamic_sidebar('home-about1-widget'); ?>
     </div>
@@ -17,7 +17,7 @@
       <?php dynamic_sidebar('home-about2-widget'); ?>
     </div>
 </section>
-<section class="row">  <!-- Events Section -->
+<section class="row hpEvents">  <!-- Events Section -->
     <div class="seven columns">
       <?php dynamic_sidebar('home-events1-widget'); ?>
     </div>

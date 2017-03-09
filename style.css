@@ -8,8 +8,6 @@ License: Open
 Text Domain:
 */
 
-@import url("stylesheets/normalize.css");
-@import url("stylesheets/skeleton.css");
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
 @font-face {
     font-family: caviarDreams;
@@ -17,15 +15,16 @@ Text Domain:
 }
 
 html, body{
-    color: #7f7f7f;
+    color: #7f7f7f;     /*gray color*/
     font-size: 16px;
     line-height: 1.5em;
     font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #69c9ca;
+    color: #69c9ca;     /*turquoise color*/
     font-family: caviarDreams;
+    margin-bottom: 1rem;
 }
 
 h1 { font-size: 3.6rem; line-height: 1.25;  letter-spacing: -.1rem;}
@@ -36,10 +35,21 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 a {
-    color: #ff3366;
+    color: #ff3366;     /*pink color*/
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+p {
+  margin-bottom: auto;
+}
+=======
+p {
+    margin-bottom: auto;
+    text-align: justify;
+}
+>>>>>>> a989ba153d4ecb8b36eeda1538e34688c2122304
 
 .button {
     background-color: #ff3366;
@@ -59,9 +69,22 @@ a {
 
 /*--- Header --- */
 .site-logo {
-    width: 100%;
+    width: 80%;
     position: relative;
-    margin-top: 1em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+@media (min-width: 768px) {
+    .site-logo{
+      width: 100%;
+    }
+}
+
+header {
+  background-color: #69c9ca;
 }
 
 header p {
@@ -79,39 +102,129 @@ header .button, .headerInfo {
 }
 
 @media (min-width: 768px) {
+    header {
+      background-color: #ffffff;
+    }
     header .button, .headerInfo {
       visibility: visible;
       position: inherit;
     }
 }
 
+/*--- Mobile Menu --- */
+
+nav a.mobile_menu {
+    width: 10%;
+    height: 10%;
+    background: url("images/icon_menu.svg") no-repeat 0 0;
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 80%;
+}
+
+.menu-header ul {
+  display: block;
+  margin: 10px;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.menu-header ul li a {
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.menu-header ul li {
+    background-color: #69c9ca;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-header ul li:hover {
+    background-color: #ff3366;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+nav {
+    height: 0;
+    overflow: hidden;
+}
+
+.menuOpen{
+    height: auto;
+    overflow: visible;
+}
+
 /*--- Menu --- */
 
-.menu-header {
-    text-align: center;
-    margin-top: 10px;
-    border-top: solid #7f7f7f .5px;
-    border-bottom: solid #7f7f7f .5px;
+@media (min-width: 768px){
+    .menu-header {
+        text-align: center;
+        margin-top: 10px;
+        border-top: solid #7f7f7f .5px;
+        border-bottom: solid #7f7f7f .5px;
+        height: auto;
+    }
+    .menu-header ul {
+        margin: 10px;
+        list-style-type: none;
+        list-style-image: none;
+    }
+    .menu-header li {
+        display: inline;
+    }
+
+    .menu-header ul li {
+        background-color: #ffffff;
+        padding: 0px;
+    }
+
+    .menu-header ul li a {
+        text-decoration:none;
+        margin: 4px;
+        padding: 10px 60px 10px 60px;
+        font-size: 1.1rem;
+        color: #69c9ca;
+        text-transform: capitalize;
+    }
+
+    .menu-header ul li a:hover{
+        color: #ffffff;
+        margin: 0px;
+    }
+
+    .menu-header ul li:hover {
+        background-color: #69c9ca;
+        padding: 0px;
+    }
+
+    nav {
+        height: auto;
+        visibility: visible;
+    }
+
+    nav a.mobile_menu {
+        display: none;
+    }
 }
-.menu-header ul {
-    margin: 10px;
-    list-style-type: none;
-    list-style-image: none;
+
+/*-- Index Page --*/
+
+.hpIntro, .hpEvents {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.menu-header li {
-    display: inline;
+
+.roundImage {
+    border-radius: 50%;
 }
-.menu-header ul li a {
-    text-decoration:none;
-    margin: 4px;
-    padding: 10px 60px 10px 60px;
-    font-size: 1.1rem;
-    color: #69c9ca;
-    text-transform: capitalize;
-}
-.menu-header ul li a:hover {
-    color: #ffffff;
-    background-color: #69c9ca;
+
+.hpAbout {
+    border-top: solid .5px #7f7f7f;
+    border-bottom: solid .5px #7f7f7f;
 }
 
 /*-- Contact Page --*/
