@@ -106,7 +106,7 @@ register_sidebar( array(
       'before_title'  => '<h3>',
       'after_title'   => '</h3>'
   ));
-}
+
     /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('Fourth Footer Widget'),
