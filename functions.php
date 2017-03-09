@@ -68,42 +68,7 @@ register_sidebar( array(
   'before_title'  => '<h2>',
   'after_title'   => '</h2>'
 ));
-
-/*--- Footer Widgets ---*/
-
-    /*--- First Footer Widget
-    register_sidebar( array(
-        'name'          => ('First Footer Widget'),
-        'id'            => 'footer-one',
-        'description'   => 'Left widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-left">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    ));
-
-  Second Footer Widget
-    register_sidebar( array(
-        'name'          => ('Second Footer Widget'),
-        'id'            => 'footer-two',
-        'description'   => 'Middle widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-middle">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    ));
-
-     Third Footer Widget
-    register_sidebar( array(
-        'name'          => ('Third Footer Widget'),
-        'id'            => 'footer-three',
-        'description'   => 'Right widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-right">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    )); ---*/
-
+/*----- Resources Widgets--------*/
     register_sidebar( array(
   'name'          => ('Resources 1 Widget'),
   'id'            => 'resources1-widget',
@@ -131,7 +96,17 @@ register_sidebar( array(
   'before_title'  => '<h3>',
   'after_title'   => '</h3>'
   ));
-
+  /*------Footer nav area------*/
+  register_sidebar( array(
+      'name'          => ('Footer Nav Widget'),
+      'id'            => 'footer-nav',
+      'description'   => 'Footer nav',
+      'before_widget' => '<div class="footer-nav">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>'
+  ));
+}
     /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('Fourth Footer Widget'),
