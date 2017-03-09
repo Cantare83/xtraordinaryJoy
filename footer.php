@@ -18,12 +18,15 @@
           <!-- End Research and Resources -->
           <!-- Begin Footer Contact Space -->
   <section class="row footerContact">
-    <div class="seven columns">
+    <div class="five columns">
         <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
           <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
     </div>
-    <div class="five columns">
+    <div class="two columns">
         <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
+    </div>
+    <div class="five columns">
+        <?php dynamic_sidebar('footer-nav'); ?>
     </div>
   </section>
           <!-- End Footer Contact Space -->
