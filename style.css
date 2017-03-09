@@ -39,17 +39,10 @@ a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-||||||| merged common ancestors
-p {
-  margin-bottom: auto;
-}
-=======
 p {
     margin-bottom: auto;
     text-align: justify;
 }
->>>>>>> a989ba153d4ecb8b36eeda1538e34688c2122304
 
 .button {
     background-color: #ff3366;
