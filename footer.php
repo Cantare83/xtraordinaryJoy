@@ -1,8 +1,7 @@
 <div class="footer-wrapper">
   <footer class="footer-container">
-    <div class="row">
-        <!-- Begin Research & Resources -->
-    <div class="resources">
+  <!-- Begin Research & Resources -->
+    <section class="row footerResources">
       <div class="researchtitle">
         <h3>Research and Resources</h3>
       </div>
@@ -15,28 +14,29 @@
       <div class="four columns">
           <?php dynamic_sidebar('resources3-widget'); ?>
       </div>
-    </div>
-  </div>
+  </section>
           <!-- End Research and Resources -->
           <!-- Begin Footer Contact Space -->
-    <div class="row">
-      <div class="eight columns">
-          <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
+  <section class="row footerContact">
+    <div class="five columns">
+        <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
           <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
-      </div>
-      <div class="four columns">
-          <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
-      </div>
     </div>
+    <div class="two columns">
+        <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
+    </div>
+    <div class="five columns">
+        <?php dynamic_sidebar('footer-nav'); ?>
+    </div>
+  </section>
           <!-- End Footer Contact Space -->
          <!-- Begin Sponsor Links  -->
-    <div class="row">
+    <section class="row footerLogos">
       <div class="twelve columns">
           <?php dynamic_sidebar('footer-four'); ?>
       </div>
-    </div>
+    </section>
           <!-- End Sponsor Links -->
-
   </footer>
 </div>
 </body>
