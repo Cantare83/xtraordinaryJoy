@@ -117,7 +117,7 @@ register_sidebar( array(
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
     ));
-
+}
 add_action('widgets_init', 'blank_widgets_init');
 
 /*--------------- Enable Menus -----------*/
