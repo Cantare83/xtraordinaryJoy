@@ -2,10 +2,10 @@
 
 <!-- Begin Main Content -->
 <section class="row hpIntro">  <!-- Intro Section -->
-    <div class="four columns">
+    <div class="six columns">
       <?php dynamic_sidebar('home-intro1-widget'); ?>
     </div>
-    <div class="eight columns">
+    <div class="six columns">
       <?php dynamic_sidebar('home-intro2-widget'); ?>
     </div>
 </section>
@@ -18,10 +18,10 @@
     </div>
 </section>
 <section class="row hpEvents">  <!-- Events Section -->
-    <div class="seven columns">
+    <div class="eight columns">
       <?php dynamic_sidebar('home-events1-widget'); ?>
     </div>
-    <div class="five columns">
+    <div class="four columns">
       <?php dynamic_sidebar('home-events2-widget'); ?>
     </div>
 </section>
