@@ -259,6 +259,10 @@ nav {
     margin-left: 1%;
 }
 
+@media (min-width: 768px){
+  .resources1, .resources2, .resources3 {
+    min-height: 200px;
+}
 .footer-container p {
   margin-bottom: auto;
   text-align: center;
