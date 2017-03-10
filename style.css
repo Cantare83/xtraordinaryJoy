@@ -254,60 +254,62 @@ nav {
 	color: #ffffff;
 }
 /*-----Footer------*/
-@media (min-width: 768px){
-  .footer-container.four.column, .footer-container.four.columns {
+  @media (min-width: 768px){
+      .footer-container.four.column, .footer-container.four.columns {
+        margin-left: 1%;
+  }
+
+  @media (min-width: 768px){
+      .resources1, .resources2, .resources3 {
+        min-height: 200px;
+  }
+  .footer-container p {
+    margin-bottom: auto;
+    text-align: center;
+  }
+  .footer-container.four.columns {
+    width: 30%;
+  }
+
+  .footer-container.four.column {
+    width: 30%;
+  }
+
+  .footer-container.four.columns {
+    margin-left: 2px;
+  }
+
+  .footer-container.four.column {
+    margin-left: 2px;
+
+  }
+  .footer-container.four.columns:nth-child(2){
     margin-left: 1%;
-}
+  }
 
-@media (min-width: 768px){
+  .footer-container.four.column:nth-child(2) {
+    margin-left: 1%;
+  }
+
+  .footer-container.four.columns:nth-child(3){
+    margin-left: 1%;
+  }
+
+  .footer-container.four.column:nth-child(3) {
+    margin-left: 1%;
+  }
   .resources1, .resources2, .resources3 {
-    min-height: 200px;
-}
-.footer-container p {
-  margin-bottom: auto;
-  text-align: center;
-}
-.footer-container.four.columns {
-  width: 30%;
-}
-
-.footer-container.four.column {
-  width: 30%;
-}
-
-.footer-container.four.columns {
-  margin-left: 2px;
-}
-
-.footer-container.four.column {
-  margin-left: 2px;
-
-}
-.footer-container.four.columns:nth-child(2){
-  margin-left: 1%;
-}
-
-.footer-container.four.column:nth-child(2) {
-  margin-left: 1%;
-}
-
-.footer-container.four.columns:nth-child(3){
-  margin-left: 1%;
-}
-
-.footer-container.four.column:nth-child(3) {
-  margin-left: 1%;
-}
-.resources1, .resources2, .resources3 {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #66cccc;
-  border-radius: 25px;
-  margin-bottom: 8px;
-}
-.menu-navigation-container ul {
-  list-style: none;
-}
-.menu-navigation-container ul li {
-  margin-bottom: 0;
-}
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #66cccc;
+    border-radius: 25px;
+    margin-bottom: 8px;
+  }
+  .menu-navigation-container ul {
+    list-style: none;
+  }
+  .menu-navigation-container ul li {
+    margin-bottom: 0;
+    color: #69c9ca; 
+    font-family: caviarDreams;
+  }
