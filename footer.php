@@ -16,6 +16,15 @@
       </div>
   </section>
           <!-- End Research and Resources -->
+
+         <!-- Begin Sponsor Links  -->
+    <section class="row footerLogos">
+      <div class="twelve columns">
+          <?php dynamic_sidebar('footer-four'); ?>
+      </div>
+    </section>
+          <!-- End Sponsor Links -->
+
           <!-- Begin Footer Contact Space -->
   <section class="row footerContact">
     <div class="five columns">
@@ -30,13 +39,6 @@
     </div>
   </section>
           <!-- End Footer Contact Space -->
-         <!-- Begin Sponsor Links  -->
-    <section class="row footerLogos">
-      <div class="twelve columns">
-          <?php dynamic_sidebar('footer-four'); ?>
-      </div>
-    </section>
-          <!-- End Sponsor Links -->
   </footer>
 </div>
 </body>
