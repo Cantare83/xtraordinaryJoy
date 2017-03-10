@@ -98,32 +98,32 @@ register_sidebar( array(
 ));
 
 /*----- Resources Widgets in Footer--------*/
-    register_sidebar( array(
-  'name'          => ('Resources 1 Widget'),
-  'id'            => 'resources1-widget',
-  'description'   => 'Widget resources section 1 in footer',
-  'before_widget' => '<div class="resources1-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
+  register_sidebar( array(
+    'name'          => ('Resources 1 Widget'),
+    'id'            => 'resources1-widget',
+    'description'   => 'Widget resources section 1 in footer',
+    'before_widget' => '<div class="resources1-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
   ));
   register_sidebar( array(
-  'name'          => ('Resources 2 Widget'),
-  'id'            => 'resources2-widget',
-  'description'   => 'Widget resources section 2 in footer',
-  'before_widget' => '<div class="resources2-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
+    'name'          => ('Resources 2 Widget'),
+    'id'            => 'resources2-widget',
+    'description'   => 'Widget resources section 2 in footer',
+    'before_widget' => '<div class="resources2-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
   ));
   register_sidebar( array(
-  'name'          => ('Resources 3 Widget'),
-  'id'            => 'resources3-widget',
-  'description'   => 'Widget resources section 3 in footer',
-  'before_widget' => '<div class="resources3-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
+    'name'          => ('Resources 3 Widget'),
+    'id'            => 'resources3-widget',
+    'description'   => 'Widget resources section 3 in footer',
+    'before_widget' => '<div class="resources3-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
   ));
   /*------Footer nav area------*/
   register_sidebar( array(
@@ -135,7 +135,15 @@ register_sidebar( array(
       'before_title'  => '<h3>',
       'after_title'   => '</h3>'
   ));
-
+  register_sidebar( array(
+      'name'          => ('Footer Nav Widget 2'),
+      'id'            => 'footer-nav2',
+      'description'   => 'Footer nav2',
+      'before_widget' => '<div class="footer-nav2">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>'
+  ));
     /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('Fourth Footer Widget'),
