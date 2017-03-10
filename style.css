@@ -305,3 +305,9 @@ nav {
   border-radius: 25px;
   margin-bottom: 8px;
 }
+.menu-navigation-container ul {
+  list-style: none;
+}
+.menu-navigation-container ul li {
+  margin-bottom: 0;
+}
