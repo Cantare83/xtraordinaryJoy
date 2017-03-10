@@ -68,7 +68,36 @@ register_sidebar( array(
   'before_title'  => '<h2>',
   'after_title'   => '</h2>'
 ));
-/*----- Resources Widgets--------*/
+/*------ Events Page Widgets---------------*/
+  register_sidebar( array(
+  'name'          => ('Events Top Widget'),
+  'id'            => 'eventstop-widget',
+  'description'   => 'Widget events 1',
+  'before_widget' => '<div class="eventstop-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+  register_sidebar( array(
+  'name'          => ('Events Foosball Widget'),
+  'id'            => 'events2-widget',
+  'description'   => 'Widget foosball events',
+  'before_widget' => '<div class="events2-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+  register_sidebar( array(
+  'name'          => ('Events Ball Widget'),
+  'id'            => 'events3-widget',
+  'description'   => 'Widget ball events',
+  'before_widget' => '<div class="events3-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+/*----- Resources Widgets in Footer--------*/
     register_sidebar( array(
   'name'          => ('Resources 1 Widget'),
   'id'            => 'resources1-widget',
