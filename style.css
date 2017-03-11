@@ -437,14 +437,12 @@ nav {
 /*----- Events Page----*/
 >>>>>>> origin/master
 
-.events1 {
+.eventstop-widget {
   background-color: #ff3366;
   padding: 3px;
-}
-
-.eventstitle {
   text-align: center;
 }
+
 /*-----Footer------*/
 
 .researchtitle {
