@@ -32,7 +32,7 @@
           <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
     </div>
     <div class="two columns">
-        <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
+        <a class="button" href="http://www.chrisihendricks.net/xtraordinaryjoy/donations/donate-today/">Donate</a>
     </div>
     <div class="three columns">
         <?php dynamic_sidebar('footer-nav'); ?>

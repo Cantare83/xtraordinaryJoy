@@ -65,6 +65,10 @@ p {
     font-size: 16px;
 }
 
+.button:focus {
+    color: #7f7f7f;
+}
+
 /*--- Header --- */
 .site-logo {
     width: 80%;
