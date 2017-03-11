@@ -42,10 +42,10 @@
     <div class="three columns">
         <?php dynamic_sidebar('footer-nav2'); ?>
     </div>
-    <div class="copyright">
-      <h6>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</h6>
-    </div>
   </section>
+  <div class="copyright">
+    <h6>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</h6>
+  </div>
           <!-- End Footer Contact Space -->
   </footer>
 </div>
