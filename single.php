@@ -25,6 +25,7 @@
               }
             } ?>
 <!-- End Page PHP -->
+            <?php add_breadcrumbs(); ?>
 
         </div>
 

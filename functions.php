@@ -220,10 +220,37 @@ function enqueue_navigation_js() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_navigation_js');
 
-/* Change Excerpt length */
+/*--- Blog Functions ---*/
+
+/*--- Change Blog Excerpt Length */
 function custom_excerpt_length( $length ) {
 	return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+/*--- Enable Bread Crumbs ---*/
+
+function add_breadcrumbs() {
+    $post_ancestors = get_post_ancestors($post);
+    if (count($post_ancestors)) {
+        $top_page = array_pop($post_ancestors);
+        $children = wp_list_pages('title_li=&child_of=' . $top_page . '&echo=0');
+    } elseif (is_page()) {
+        $children = wp_list_pages('title_li=&child_of=' . $post->ID . '&echo=0&depth=2');
+    }
+    if (is_page() && !is_front_page()) {
+        $breadcrumb = "<nav id='breadcrumb'><ul>";
+        $breadcrumb .= '<li><a href=" ' . get_bloginfo('url') . '">Home</a></li>';
+        $post_ancestors = get_post_ancestors($post);
+    if ($post_ancestors) {
+        $post_ancestors = array_reverse($post_ancestors);
+    foreach ($post_ancestors as $crumb)
+        $breadcrumb .= '<li><a href="' . get_permalink($crumb) . '">' . get_the_title($crumb) . '</a></li>';
+    }
+    $breadcrumb .= '<li><strong>' . get_the_title() . '</strong></li>';
+    $breadcrumb .= "</ul></nav>";
+    echo $breadcrumb;
+    }
+}
 
 ?>
