@@ -234,6 +234,11 @@ nav {
     border-bottom: solid .5px #7f7f7f;
 }
 
+.hpEvents video {
+    max-width: 90%;
+    height: auto;
+}
+
 .home-about1-widget h2 {
     padding-top: 30px;
 }
@@ -335,7 +340,7 @@ nav {
     border-radius: 25px;
     margin-bottom: 8px;
   }
-  
+
   .menu-navigation-container ul {
     list-style: none;
     columns: 2;
