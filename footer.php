@@ -44,7 +44,7 @@
     </div>
   </section>
   <div class="copyright">
-    <h6>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</h6>
+    <p>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</p>
   </div>
           <!-- End Footer Contact Space -->
   </footer>
