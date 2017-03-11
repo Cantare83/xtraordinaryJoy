@@ -335,9 +335,14 @@ nav {
     border-radius: 25px;
     margin-bottom: 8px;
   }
+  
   .menu-navigation-container ul {
     list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
+
   .menu-navigation-container ul li {
     margin-bottom: 0.2rem;
     color: #69c9ca;
