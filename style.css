@@ -255,14 +255,15 @@ nav {
 }
 /*-----Footer------*/
   @media (min-width: 768px){
-      .footer-container.four.column, .footer-container.four.columns {
+      .resourcesbox.column, .resourcesbox.columns {
         margin-left: 1%;
   }
-
+}
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         min-height: 200px;
   }
+}
   .footer-container p {
     margin-bottom: auto;
     text-align: center;
@@ -310,6 +311,6 @@ nav {
   }
   .menu-navigation-container ul li {
     margin-bottom: 0;
-    color: #69c9ca; 
+    color: #69c9ca;
     font-family: caviarDreams;
   }
