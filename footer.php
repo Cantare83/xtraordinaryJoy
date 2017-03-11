@@ -2,10 +2,10 @@
   <footer class="footer-container">
   <!-- Begin Research & Resources -->
     <section class="row footerResources">
-      <div class="resourcesbox">
         <div class="researchtitle">
           <h3>Research and Resources</h3>
         </div>
+        <div class="resourcesbox">
         <div class="four columns">
             <?php dynamic_sidebar('resources1-widget'); ?>
         </div>
