@@ -449,6 +449,14 @@ nav {
   text-align: center;
 }
 
+.address ul li {
+  text-align: left;
+  color: #7f7f7f;     /*gray color*/
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: 'Raleway', sans-serif;
+}
+
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
