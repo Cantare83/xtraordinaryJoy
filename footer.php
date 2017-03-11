@@ -2,17 +2,19 @@
   <footer class="footer-container">
   <!-- Begin Research & Resources -->
     <section class="row footerResources">
-      <div class="researchtitle">
-        <h3>Research and Resources</h3>
-      </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('resources1-widget'); ?>
-      </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('resources2-widget'); ?>
-      </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('resources3-widget'); ?>
+      <div class="resourcesbox">
+        <div class="researchtitle">
+          <h3>Research and Resources</h3>
+        </div>
+        <div class="four columns">
+            <?php dynamic_sidebar('resources1-widget'); ?>
+        </div>
+        <div class="four columns">
+            <?php dynamic_sidebar('resources2-widget'); ?>
+        </div>
+        <div class="four columns">
+            <?php dynamic_sidebar('resources3-widget'); ?>
+        </div>
       </div>
   </section>
           <!-- End Research and Resources -->
@@ -42,6 +44,13 @@
     </div>
   </section>
           <!-- End Footer Contact Space -->
+          <!-- Copyright -->
+  <section class="copyrightinfo">
+    <div class="twelve columns">
+      <h6>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</h6>
+    </div>
+  </section>
+      <!-- End Copyright -->
   </footer>
 </div>
 </body>
