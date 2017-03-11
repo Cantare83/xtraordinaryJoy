@@ -269,6 +269,7 @@ nav {
     .readmore p {
         text-align: center;
     }
+
 }
 
 @media (min-width: 700px){
@@ -279,14 +280,53 @@ nav {
     .readmore p {
         float: right;
     }
+
+    #searchsubmit {
+      float: right;
+    }
 }
 
 /*-----Sidebar-----*/
+
+.widget-sidebar {
+  margin-bottom: 10%;
+}
 
 .sidebar ul, li {
     display: block;
     text-decoration: none;
 }
+
+.screen-reader-text {
+  color: #69c9ca;     /*turquoise color*/
+  font-family: caviarDreams;
+  margin-bottom: 1rem;
+  font-size: 2.0rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+} /*-- Search Sidebar Title --*/
+
+#s {
+  width: 100%;
+} /*-- Search Sidebar Input --*/
+
+#searchsubmit {
+  background-color: #ff3366;
+  color: #ffffff;
+  border: none;
+  font-family: caviarDreams;
+  font-size: 11px;
+
+} /*-- Search Submit Button --*/
+
+#searchsubmit:hover {
+    background-color: #ffffff;
+    color: #ff3366;
+    border: solid #ff3366 .5px;
+    font-family: caviarDreams;
+    font-size: 11px;
+} /*-- Search Submit Hover Button --*/
+
 
 /*-----Blog Post Page------*/
 
@@ -305,6 +345,16 @@ nav {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+/*-----Search------*/
+
+.searchresult {
+  color: #ff3366;
+}
+
+.search {
+  margin-top: 12%;
 }
 
 /*-----Footer------*/
