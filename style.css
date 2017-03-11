@@ -268,6 +268,8 @@ nav {
 	overflow: hidden;
 	color: #ffffff;
 }
+/*----- Events Page----*/
+
 /*-----Footer------*/
 
   @media (min-width: 768px){
@@ -329,6 +331,11 @@ nav {
     color: #69c9ca;
     font-family: caviarDreams;
   }
+
+  .footer-nav2 h6 {
+    margin-bottom: auto;
+  }
+  
   .copyrightinfo {
     text-align: center;
   }

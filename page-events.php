@@ -5,10 +5,12 @@
 get_header(); ?>
 <!-- Events Header Section -->
     <section class="row Eventshead">
-      <div class="twelve columns">
-          <?php dynamic_sidebar('eventstop-widget'); ?>
-        <div class="eventstitle">
-            <h3>We Put the Fun in Fundraising!</h3>
+      <div class="events1">
+        <div class="twelve columns">
+            <?php dynamic_sidebar('eventstop-widget'); ?>
+          <div class="eventstitle">
+              <h3>We Put the Fun in Fundraising!</h3>
+          </div>
         </div>
       </div>
     </section>
