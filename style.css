@@ -269,55 +269,54 @@ nav {
 	color: #ffffff;
 }
 /*-----Footer------*/
-  @media (min-width: 768px){
-      .resourcesbox.column, .resourcesbox.columns {
-        margin-left: 1%;
-  }
-}
+
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
-        min-height: 200px;
+        min-height: 225px;
   }
 }
+
   .footer-container p {
     margin-bottom: auto;
     text-align: center;
   }
-  .footer-container.four.columns {
+
+  .four.columns {
     width: 29%;
   }
 
-  .footer-container.four.column {
+  .four.column {
     width: 29%;
   }
 
-  .footer-container.four.columns {
+  .four.columns {
     margin-left: 2px;
   }
 
-  .footer-container.four.column {
+  .four.column {
     margin-left: 2px;
-
   }
-  .footer-container.four.columns:nth-child(2){
+
+  .four.columns:nth-child(2){
     margin-left: 1%;
   }
 
-  .footer-container.four.column:nth-child(2) {
+  .four.column:nth-child(2) {
     margin-left: 1%;
   }
 
-  .footer-container.four.columns:nth-child(3){
+  .four.columns:nth-child(3){
     margin-left: 1%;
   }
 
-  .footer-container.four.column:nth-child(3) {
+  .four.column:nth-child(3) {
     margin-left: 1%;
   }
+  
   .resources1, .resources2, .resources3 {
     text-align: center;
     padding: 10px;
-    border: 1px solid #66cccc;
+    border: 1px solid #69c9ca;
     border-radius: 25px;
     margin-bottom: 8px;
   }
