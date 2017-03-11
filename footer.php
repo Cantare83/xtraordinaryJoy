@@ -43,9 +43,13 @@
         <?php dynamic_sidebar('footer-nav2'); ?>
     </div>
   </section>
-  <div class="copyright">
-    <p>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</p>
-  </div>
+  <section class="copyright-text">
+      <div class="twelve columns">
+        <div class="copyright">
+          <p>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</p>
+        </div>
+      </div>
+  </section>
           <!-- End Footer Contact Space -->
   </footer>
 </div>
