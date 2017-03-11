@@ -68,6 +68,59 @@ register_sidebar( array(
   'before_title'  => '<h2>',
   'after_title'   => '</h2>'
 ));
+
+    /*--- About Page Widgets ---*/
+
+    register_sidebar( array(
+      'name'          => ('About Header Widget'),
+      'id'            => 'about-header-widget',
+      'description'   => 'Widget header image about page',
+      'before_widget' => '<div class="about-header-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
+
+    register_sidebar( array(
+      'name'          => ('About Image 1 Widget'),
+      'id'            => 'about-image1-widget',
+      'description'   => 'Widget image 1 about page',
+      'before_widget' => '<div class="about-image1-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
+
+    register_sidebar( array(
+      'name'          => ('About Copy 1 Widget'),
+      'id'            => 'about-copy1-widget',
+      'description'   => 'Widget copy 1 about page',
+      'before_widget' => '<div class="about-copy1-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
+
+    register_sidebar( array(
+      'name'          => ('About Copy 2 Widget'),
+      'id'            => 'about-copy2-widget',
+      'description'   => 'Widget copy 2 about page',
+      'before_widget' => '<div class="about-copy2-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
+
+    register_sidebar( array(
+      'name'          => ('About Image 2 Widget'),
+      'id'            => 'about-image2-widget',
+      'description'   => 'Widget image 2 about page',
+      'before_widget' => '<div class="about-image2-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
+
 /*------ Events Page Widgets---------------*/
   register_sidebar( array(
   'name'          => ('Events Top Widget'),
