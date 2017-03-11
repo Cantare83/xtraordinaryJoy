@@ -21,11 +21,12 @@
                       </div>
                 </div>
                 <?php the_content(); ?>
+                <?php add_breadcrumbs(); ?>
             <?php
               }
-            } ?>
+            }
+            ?>
 <!-- End Page PHP -->
-            <?php add_breadcrumbs(); ?>
 
         </div>
 
