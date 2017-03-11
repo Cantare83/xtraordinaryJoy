@@ -69,69 +69,159 @@ register_sidebar( array(
   'after_title'   => '</h2>'
 ));
 
-/*--- Footer Widgets ---*/
+    /*--- About Page Widgets ---*/
 
-    /*--- First Footer Widget
     register_sidebar( array(
-        'name'          => ('First Footer Widget'),
-        'id'            => 'footer-one',
-        'description'   => 'Left widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-left">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+      'name'          => ('About Header Widget'),
+      'id'            => 'about-header-widget',
+      'description'   => 'Widget header image about page',
+      'before_widget' => '<div class="about-header-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
     ));
 
-  Second Footer Widget
     register_sidebar( array(
-        'name'          => ('Second Footer Widget'),
-        'id'            => 'footer-two',
-        'description'   => 'Middle widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-middle">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
+      'name'          => ('About Image 1 Widget'),
+      'id'            => 'about-image1-widget',
+      'description'   => 'Widget image 1 about page',
+      'before_widget' => '<div class="about-image1-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
     ));
 
-     Third Footer Widget
     register_sidebar( array(
-        'name'          => ('Third Footer Widget'),
-        'id'            => 'footer-three',
-        'description'   => 'Right widget in the footer',
-        'before_widget' => '<div class="widget-footer widget-right">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    )); ---*/
+      'name'          => ('About Copy 1 Widget'),
+      'id'            => 'about-copy1-widget',
+      'description'   => 'Widget copy 1 about page',
+      'before_widget' => '<div class="about-copy1-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
 
     register_sidebar( array(
-  'name'          => ('Resources 1 Widget'),
-  'id'            => 'resources1-widget',
-  'description'   => 'Widget resources section 1 in footer',
-  'before_widget' => '<div class="resources1-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
-  ));
-  register_sidebar( array(
-  'name'          => ('Resources 2 Widget'),
-  'id'            => 'resources2-widget',
-  'description'   => 'Widget resources section 2 in footer',
-  'before_widget' => '<div class="resources2-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
-  ));
-  register_sidebar( array(
-  'name'          => ('Resources 3 Widget'),
-  'id'            => 'resources3-widget',
-  'description'   => 'Widget resources section 3 in footer',
-  'before_widget' => '<div class="resources3-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
-  ));
+      'name'          => ('About Copy 2 Widget'),
+      'id'            => 'about-copy2-widget',
+      'description'   => 'Widget copy 2 about page',
+      'before_widget' => '<div class="about-copy2-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
 
+    register_sidebar( array(
+      'name'          => ('About Image 2 Widget'),
+      'id'            => 'about-image2-widget',
+      'description'   => 'Widget image 2 about page',
+      'before_widget' => '<div class="about-image2-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+    ));
+
+/*------ Events Page Widgets---------------*/
+  register_sidebar( array(
+  'name'          => ('Events Top Widget'),
+  'id'            => 'eventstop-widget',
+  'description'   => 'Widget events 1',
+  'before_widget' => '<div class="eventstop-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+/*-- Events Foosball Widgets--*/
+
+  register_sidebar( array(
+  'name'          => ('Events Foosball Text Widget'),
+  'id'            => 'eventsfoosball-widget',
+  'description'   => 'Widget foosball text events',
+  'before_widget' => '<div class="eventsfoosball-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+  register_sidebar( array(
+  'name'          => ('Events Foosball Widget'),
+  'id'            => 'events2-widget',
+  'description'   => 'Widget foosball events',
+  'before_widget' => '<div class="events2-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+/*-- Events Masquerade Ball Widgets --*/
+  register_sidebar( array(
+  'name'          => ('Events Ball Text Widget'),
+  'id'            => 'eventsmball-widget',
+  'description'   => 'Widget Mball text events',
+  'before_widget' => '<div class="eventsmball-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+  register_sidebar( array(
+  'name'          => ('Events Ball Widget'),
+  'id'            => 'events3-widget',
+  'description'   => 'Widget ball events',
+  'before_widget' => '<div class="events3-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+/*----- Resources Widgets in Footer--------*/
+  register_sidebar( array(
+    'name'          => ('Resources 1 Widget'),
+    'id'            => 'resources1-widget',
+    'description'   => 'Widget resources section 1 in footer',
+    'before_widget' => '<div class="resources1-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar( array(
+    'name'          => ('Resources 2 Widget'),
+    'id'            => 'resources2-widget',
+    'description'   => 'Widget resources section 2 in footer',
+    'before_widget' => '<div class="resources2-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar( array(
+    'name'          => ('Resources 3 Widget'),
+    'id'            => 'resources3-widget',
+    'description'   => 'Widget resources section 3 in footer',
+    'before_widget' => '<div class="resources3-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+  /*------Footer nav area------*/
+  register_sidebar( array(
+      'name'          => ('Footer Nav Widget'),
+      'id'            => 'footer-nav',
+      'description'   => 'Footer nav',
+      'before_widget' => '<div class="footer-nav">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>'
+  ));
+  register_sidebar( array(
+      'name'          => ('Footer Nav Widget 2'),
+      'id'            => 'footer-nav2',
+      'description'   => 'Footer nav2',
+      'before_widget' => '<div class="footer-nav2">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>'
+  ));
     /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('Fourth Footer Widget'),
@@ -209,6 +299,7 @@ wp_deregister_script('jquery');
 
 wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.1.1.min.js','','',true);
 
+/*--- Not Working
 function enqueue_navigation_js() {
   wp_enqueue_script(
     'navigation_js',
@@ -219,6 +310,7 @@ function enqueue_navigation_js() {
   );
 }
 add_action('wp_enqueue_scripts', 'enqueue_navigation_js');
+---*/
 
 /*--- Blog Functions ---*/
 

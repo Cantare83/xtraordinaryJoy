@@ -1,42 +1,52 @@
 <div class="footer-wrapper">
   <footer class="footer-container">
-    <div class="row">
-        <!-- Begin Research & Resources -->
-    <div class="resources">
-      <div class="researchtitle">
-        <h3>Research and Resources</h3>
+  <!-- Begin Research & Resources -->
+    <section class="row footerResources">
+        <div class="researchtitle">
+          <h3>Research and Resources</h3>
+        </div>
+        <div class="resourcesbox">
+        <div class="four columns">
+            <?php dynamic_sidebar('resources1-widget'); ?>
+        </div>
+        <div class="four columns">
+            <?php dynamic_sidebar('resources2-widget'); ?>
+        </div>
+        <div class="four columns">
+            <?php dynamic_sidebar('resources3-widget'); ?>
+        </div>
       </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('resources1-widget'); ?>
-      </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('resources2-widget'); ?>
-      </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('resources3-widget'); ?>
-      </div>
-    </div>
-  </div>
+  </section>
           <!-- End Research and Resources -->
-          <!-- Begin Footer Contact Space -->
-    <div class="row">
-      <div class="eight columns">
-          <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
-          <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
-      </div>
-      <div class="four columns">
-          <a class="button" href="http://www.chrisihendricks.net/wie-final2016/contact-us/">Donate</a>
-      </div>
-    </div>
-          <!-- End Footer Contact Space -->
+
          <!-- Begin Sponsor Links  -->
-    <div class="row">
+    <section class="row footerLogos">
       <div class="twelve columns">
           <?php dynamic_sidebar('footer-four'); ?>
       </div>
-    </div>
+    </section>
           <!-- End Sponsor Links -->
 
+          <!-- Begin Footer Contact Space -->
+  <section class="row footerContact">
+    <div class="four columns">
+        <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
+          <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
+    </div>
+    <div class="two columns">
+        <a class="button" href="http://www.chrisihendricks.net/xtraordinaryjoy/donations/donate-today/">Donate</a>
+    </div>
+    <div class="three columns">
+        <?php dynamic_sidebar('footer-nav'); ?>
+    </div>
+    <div class="three columns">
+        <?php dynamic_sidebar('footer-nav2'); ?>
+    </div>
+  </section>
+  <div class="copyright">
+    <p>&copy; 2017 Xtraordinary Joy Inc. All Rights Reserved. Designed by ACA Creative.</p>
+  </div>
+          <!-- End Footer Contact Space -->
   </footer>
 </div>
 </body>

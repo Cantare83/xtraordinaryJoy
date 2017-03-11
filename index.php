@@ -2,10 +2,10 @@
 
 <!-- Begin Main Content -->
 <section class="row hpIntro">  <!-- Intro Section -->
-    <div class="four columns">
+    <div class="six columns">
       <?php dynamic_sidebar('home-intro1-widget'); ?>
     </div>
-    <div class="eight columns">
+    <div class="six columns">
       <?php dynamic_sidebar('home-intro2-widget'); ?>
     </div>
 </section>
