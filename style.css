@@ -270,6 +270,14 @@ nav {
 }
 /*----- Events Page----*/
 
+.events1 {
+  background-color: #ff3366;
+  padding: 3px;
+}
+
+.eventstitle {
+  text-align: center;
+}
 /*-----Footer------*/
 
   @media (min-width: 768px){
@@ -335,7 +343,7 @@ nav {
   .footer-nav2 h6 {
     margin-bottom: auto;
   }
-  
+
   .copyrightinfo {
     text-align: center;
   }
