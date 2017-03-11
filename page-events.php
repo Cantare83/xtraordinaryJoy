@@ -34,9 +34,6 @@ get_header(); ?>
         <?php dynamic_sidebar('events3-widget'); ?>
       </div>
       <div class="five columns">
-        <div class="Eventsball title">
-            <h3>Masquerade Ball</h3>
-        </div>
           <?php dynamic_sidebar('eventsmball-widget'); ?>
       </div>
     </section>
