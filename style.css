@@ -39,6 +39,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #69c9ca;
+}
+
 p {
     margin-bottom: auto;
     text-align: justify;
