@@ -280,6 +280,10 @@ nav {
 }
 /*-----Footer------*/
 
+.researchtitle {
+  text-align: center;
+}
+
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
@@ -335,9 +339,10 @@ nav {
     list-style: none;
   }
   .menu-navigation-container ul li {
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
     color: #69c9ca;
     font-family: caviarDreams;
+    text-align: center;
   }
 
   .footer-nav2 h6 {
