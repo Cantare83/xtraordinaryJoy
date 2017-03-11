@@ -272,7 +272,8 @@ nav {
 
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
-        min-height: 225px;
+        width: auto;
+        height: 225px;
   }
 }
 
@@ -312,7 +313,7 @@ nav {
   .four.column:nth-child(3) {
     margin-left: 1%;
   }
-  
+
   .resources1, .resources2, .resources3 {
     text-align: center;
     padding: 10px;
