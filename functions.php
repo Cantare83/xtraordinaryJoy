@@ -131,6 +131,19 @@ register_sidebar( array(
   'before_title'  => '<h3>',
   'after_title'   => '</h3>'
 ));
+
+/*-- Events Foosball Widgets--*/
+
+  register_sidebar( array(
+  'name'          => ('Events Foosball Text Widget'),
+  'id'            => 'eventsfoosball-widget',
+  'description'   => 'Widget foosball text events',
+  'before_widget' => '<div class="eventsfoosball-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
   register_sidebar( array(
   'name'          => ('Events Foosball Widget'),
   'id'            => 'events2-widget',
@@ -140,6 +153,18 @@ register_sidebar( array(
   'before_title'  => '<h3>',
   'after_title'   => '</h3>'
 ));
+
+/*-- Events Masquerade Ball Widgets --*/
+  register_sidebar( array(
+  'name'          => ('Events Ball Text Widget'),
+  'id'            => 'eventsmball-widget',
+  'description'   => 'Widget Mball text events',
+  'before_widget' => '<div class="eventsmball-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
   register_sidebar( array(
   'name'          => ('Events Ball Widget'),
   'id'            => 'events3-widget',
