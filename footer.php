@@ -36,7 +36,7 @@
               <li>Xtraordinary Joy Inc.</li>
               <li>2603 NW 13th St. Suite 327</li>
               <li>Gainesville, FL 32609 US</li>
-              <li>info@xtraordinaryjoy.org</li>
+              <li><a href="mailto:info@xtraordinaryjoy.org">info@xtraordinaryjoy.org</a></li>
           </ul>
         </div>
           <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
