@@ -6,17 +6,17 @@
           <h3>Research and Resources</h3>
         </div>
         <div class="resourcesbox">
-        <div class="four columns">
-            <?php dynamic_sidebar('resources1-widget'); ?>
-        </div>
-        <div class="four columns">
-            <?php dynamic_sidebar('resources2-widget'); ?>
-        </div>
-        <div class="four columns">
-            <?php dynamic_sidebar('resources3-widget'); ?>
-        </div>
+          <div class="four columns">
+              <?php dynamic_sidebar('resources1-widget'); ?>
+          </div>
+          <div class="four columns">
+              <?php dynamic_sidebar('resources2-widget'); ?>
+          </div>
+          <div class="four columns">
+              <?php dynamic_sidebar('resources3-widget'); ?>
+          </div>
       </div>
-  </section>
+    </section>
           <!-- End Research and Resources -->
 
          <!-- Begin Sponsor Links  -->
