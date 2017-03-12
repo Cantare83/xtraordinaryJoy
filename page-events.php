@@ -18,9 +18,6 @@ get_header(); ?>
 <!-- Events Foosball Section -->
     <section class="row Eventsfoosball">
       <div class="five columns">
-        <div class="Eventsball title">
-            <h3>Human Foosball Tournament</h3>
-        </div>
             <?php dynamic_sidebar('eventsfoosball-widget'); ?>
       </div>
       <div class="seven columns">
