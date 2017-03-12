@@ -525,6 +525,10 @@ nav {
     text-align: center;
   }
 
+  .footer-nav {
+    margin-top: 2%;
+  }
+  
   .footer-nav2 h6 {
     margin-bottom: auto;
   }
