@@ -17,26 +17,20 @@ get_header(); ?>
 <!-- End events header section -->
 <!-- Events Foosball Section -->
     <section class="row Eventsfoosball">
-      <div class="five columns">
-        <div class="Eventsball title">
-            <h3>Human Foosball Tournament</h3>
-        </div>
+      <div class="six columns">
             <?php dynamic_sidebar('eventsfoosball-widget'); ?>
       </div>
-      <div class="seven columns">
+      <div class="six columns">
         <?php dynamic_sidebar('events2-widget'); ?>
       </div>
     </section>
 <!-- Dnd foosball section -->
 <!-- Ball Section -->
     <section class="row Eventsball">
-      <div class="seven columns">
+      <div class="six columns">
         <?php dynamic_sidebar('events3-widget'); ?>
       </div>
-      <div class="five columns">
-        <div class="Eventsball title">
-            <h3>Masquerade Ball</h3>
-        </div>
+      <div class="six columns">
           <?php dynamic_sidebar('eventsmball-widget'); ?>
       </div>
     </section>
