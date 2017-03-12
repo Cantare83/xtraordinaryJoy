@@ -31,12 +31,14 @@
   <section class="row footerContact">
     <div class="four columns">
         <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
-         <ul class="address">
-          <li>Xtraordinary Joy Inc.</li>
-          <li>2603 NW 13th St. Suite 327</li>
-          <li>Gainesville, FL 32609 US</li>
-          <li>info@xtraordinaryjoy.org</li>
-        </ul>
+          <div class="address">
+           <ul>
+              <li>Xtraordinary Joy Inc.</li>
+              <li>2603 NW 13th St. Suite 327</li>
+              <li>Gainesville, FL 32609 US</li>
+              <li>info@xtraordinaryjoy.org</li>
+          </ul>
+        </div>
           <!-- Address and contact widget here? <?php dynamic_sidebar(''); ?> -->
     </div>
     <div class="two columns">
