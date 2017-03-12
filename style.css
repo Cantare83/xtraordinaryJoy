@@ -438,8 +438,17 @@ nav {
 
 /*-----Footer------*/
 
-.resources.four.columns {
+.resourcesbox.four.columns {
   width: 29%;
+  margin-left: 2px;
+}
+
+.resourcesbox.four.columns:nth-child(2){
+  margin-left: 1%;
+}
+
+.resourcesbox.four.columns:nth-child(3){
+  margin-left: 1%;
 }
 
 .researchtitle {
@@ -467,6 +476,7 @@ nav {
     text-align: center;
   }
 
+/*--
   .four.columns {
     width: 29%;
   }
@@ -498,6 +508,7 @@ nav {
   .four.column:nth-child(3) {
     margin-left: 1%;
   }
+  */
 
   .resources1, .resources2, .resources3 {
     text-align: center;
