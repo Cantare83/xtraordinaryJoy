@@ -367,7 +367,6 @@ nav {
     display: inline-block;
     text-decoration: none;
 }
-<<<<<<< HEAD
 
 .screen-reader-text {
   color: #69c9ca;     /*turquoise color*/
@@ -428,18 +427,8 @@ nav {
   margin-top: 12%;
 }
 
-/*-----Footer------*/
-.resources.four.columns {
-  width: 29%;
-}
-||||||| merged common ancestors
-/*-----Footer------*/
-.resources.four.columns {
-  width: 29%;
-}
-=======
+
 /*----- Events Page----*/
->>>>>>> origin/master
 
 .eventstop-widget {
   background-color: #ff3366;
@@ -448,6 +437,10 @@ nav {
 }
 
 /*-----Footer------*/
+
+.resources.four.columns {
+  width: 29%;
+}
 
 .researchtitle {
   text-align: center;
