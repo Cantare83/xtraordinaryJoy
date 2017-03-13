@@ -488,6 +488,10 @@ nav {
   width: 29%;
 }
 
+.row-footerContact.two.columns, .row-footerContact.tow.column {
+    margin-left: 2%;
+}
+
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
