@@ -523,12 +523,13 @@ nav {
     color: #69c9ca;
     font-family: caviarDreams;
     text-align: center;
+    text-transform: uppercase;
   }
 
   .footer-nav {
     margin-top: 2%;
   }
-  
+
   .footer-nav2 h6 {
     margin-bottom: auto;
   }
