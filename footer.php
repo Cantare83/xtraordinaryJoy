@@ -28,7 +28,7 @@
           <!-- End Sponsor Links -->
 
           <!-- Begin Footer Contact Space -->
-  <section class="row footerContact">
+  <section class="row-footerContact">
     <div class="four columns">
         <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
           <div class="address">
