@@ -426,23 +426,17 @@ nav {
   margin-top: 12%;
 }
 
-/*-----Footer------*/
-.resources.four.columns {
-  width: 29%;
-}
-||||||| merged common ancestors
-/*-----Footer------*/
-.resources.four.columns {
-  width: 29%;
-}
-=======
 /*----- Events Page----*/
->>>>>>> origin/master
 
 .eventstop-widget {
   background-color: #ff3366;
   padding: 3px;
   text-align: center;
+}
+
+.eventstitle h3 {
+  text-align: center;
+  background-color: #ff3366;
 }
 
 /*-----Footer------*/
@@ -461,6 +455,10 @@ nav {
   text-decoration: none;
 }
 
+.resources.four.columns {
+  width: 29%;
+}
+
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
@@ -476,11 +474,11 @@ nav {
     }
 
     .four.columns {
-      margin-left: 2px;
+      margin-left: 2%;
     }
 
     .four.column {
-      margin-left: 2px;
+      margin-left: 2%;
     }
 
     .four.columns:nth-child(2){
@@ -525,6 +523,11 @@ nav {
     color: #69c9ca;
     font-family: caviarDreams;
     text-align: center;
+    text-transform: uppercase;
+  }
+
+  .footer-nav {
+    margin-top: 2%;
   }
 
   .footer-nav2 h6 {
