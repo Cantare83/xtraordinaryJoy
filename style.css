@@ -556,6 +556,10 @@ nav {
     margin-bottom: 8px;
   }
 
+  .resources1:hover, .resources2:hover, .resources3:hover {
+    border: 1px solid #ff3366;
+  }
+  
   .menu-navigation-container ul {
     list-style: none;
     columns: 2;
