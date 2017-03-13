@@ -488,6 +488,10 @@ nav {
   width: 29%;
 }
 
+.row-footerContact {
+  margin-top: 2%;
+
+}
 .row-footerContact.two.columns, .row-footerContact.tow.column {
     margin-left: 2%;
 }
