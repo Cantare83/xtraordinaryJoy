@@ -464,7 +464,8 @@ nav {
 
 .eventstitle h3 {
   text-align: center;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #ff3366;
 }
 
 /*-----Footer------*/
