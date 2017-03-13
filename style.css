@@ -486,12 +486,16 @@ nav {
 
 .resources.four.columns {
   width: 29%;
+
 }
 
 .row-footerContact {
   margin-top: 2%;
-
+  margin-bottom: 2%;
+  border-top: dotted #ff3366;
+  border-bottom: dotted #ff3366;
 }
+
 .row-footerContact.two.columns, .row-footerContact.tow.column {
     margin-left: 2%;
 }
