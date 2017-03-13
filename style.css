@@ -424,23 +424,17 @@ nav {
   margin-top: 12%;
 }
 
-/*-----Footer------*/
-.resources.four.columns {
-  width: 29%;
-}
-||||||| merged common ancestors
-/*-----Footer------*/
-.resources.four.columns {
-  width: 29%;
-}
-=======
 /*----- Events Page----*/
->>>>>>> origin/master
 
 .eventstop-widget {
   background-color: #ff3366;
   padding: 3px;
   text-align: center;
+}
+
+.eventstitle h3 {
+  text-align: center;
+  background-color: #ff3366;
 }
 
 /*-----Footer------*/
@@ -457,6 +451,10 @@ nav {
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
+}
+
+.resources.four.columns {
+  width: 29%;
 }
 
   @media (min-width: 768px){
