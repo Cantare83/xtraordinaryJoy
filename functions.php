@@ -121,6 +121,39 @@ register_sidebar( array(
       'after_title'   => '</h2>'
     ));
 
+/*--- Contact Page Widgets ---*/
+
+register_sidebar( array(
+  'name'          => ('Contact Image Widget'),
+  'id'            => 'contact-image-widget',
+  'description'   => 'Contact Image',
+  'before_widget' => '<div class="contactimage">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>'
+));
+
+register_sidebar( array(
+  'name'          => ('Contact Info Widget'),
+  'id'            => 'contact-info-widget',
+  'description'   => 'Contact Info',
+  'before_widget' => '<div class="contactinfo">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>'
+));
+
+register_sidebar( array(
+  'name'          => ('Contact Form Widget'),
+  'id'            => 'contact-form-widget',
+  'description'   => 'Contact From',
+  'before_widget' => '<div class="form">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>'
+));
+
+
 /*------ Events Page Widgets---------------*/
   register_sidebar( array(
   'name'          => ('Events Top Widget'),
