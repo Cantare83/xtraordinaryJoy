@@ -2,6 +2,7 @@
 
     <section class="row">
         <div class="eight columns">
+          <div class="postcontainer">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
@@ -16,7 +17,7 @@
 
                       <?php } ?>
 
-                      <div class="eight columns">
+                      <div class="seven columns">
                         <h3><?php the_title(); ?></h3>
                       </div>
                 </div>
@@ -29,6 +30,7 @@
 <!-- End Page PHP -->
 
         </div>
+      </div>
 
         <div class="three columns">
             <?php get_sidebar(); ?>

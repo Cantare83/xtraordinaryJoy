@@ -288,8 +288,6 @@ nav {
   margin: auto;
 }
 
-
-
 /*-- Blog Index Page --*/
 
 .blogcontainer {
@@ -429,6 +427,11 @@ nav {
 
 /*-----Blog Post Page------*/
 
+.blogcontainer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .posttitle {
   overflow: hidden;
   margin-bottom: 1em;
@@ -443,6 +446,8 @@ nav {
   margin: auto;
   display: block;
 }
+
+
 
 /*-----Search------*/
 
@@ -470,7 +475,7 @@ nav {
 
 .row-Eventsfoosball, .row-Eventsball {
   margin-bottom: 5%;
-  border-bottom: solid 1px #7f7f7f;  
+  border-bottom: solid 1px #7f7f7f;
 }
 
 /*-----Footer------*/
