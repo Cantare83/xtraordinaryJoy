@@ -468,6 +468,11 @@ nav {
   background-color: #ff3366;
 }
 
+.row-Eventsfoosball, .row-Eventsball {
+  margin-bottom: 5%;
+  border-bottom: solid 1px #7f7f7f;  
+}
+
 /*-----Footer------*/
 
 .researchtitle {
