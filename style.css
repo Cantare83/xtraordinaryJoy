@@ -543,6 +543,10 @@ nav {
     }
 }
 
+  .resourcesbox {
+    align-content: center;
+  }
+
   .footer-container p {
     margin-bottom: auto;
     text-align: center;
@@ -559,7 +563,7 @@ nav {
   .resources1:hover, .resources2:hover, .resources3:hover {
     border: 1px solid #ff3366;
   }
-  
+
   .menu-navigation-container ul {
     list-style: none;
     columns: 2;
