@@ -505,8 +505,12 @@ nav {
   border-top: solid #ff3366;
 }
 
-.row-footerContact.two.columns, .row-footerContact.tow.column {
+.row-footerContact.two.columns, .row-footerContact.two.column {
     margin-left: 2%;
+}
+
+.row-footerContact.four.colums {
+  width: 27%;
 }
 
   @media (min-width: 768px){
