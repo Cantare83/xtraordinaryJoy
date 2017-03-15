@@ -252,6 +252,8 @@ nav {
 
 .contactimage img {
     border-radius: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 .contactinfo {
@@ -270,22 +272,48 @@ nav {
     margin: auto;
     width: 95%;
     background: #69c9ca;
-}
-
-.form label {
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 1.5em;
-    font-family: 'Raleway', sans-serif;
     padding: 0.5em;
 }
 
-.form input {
+.form p {
+  text-align: center;
+  padding: 0.3em;
+  margin-bottom: 0;
+}
+
+
+.forminput {
   color: #000000;
   font-size: 16px;
   line-height: 1.5em;
   font-family: 'Raleway', sans-serif;
-  margin: auto;
+  padding: 0.1em;
+  margin-left: auto;
+  width: 95%;
+}
+
+
+
+ .formsubmitbutton {
+  background-color: #ff3366;
+  color: #ffffff;
+  border: none;
+  font-family: caviarDreams;
+  font-size: 16px;
+  padding-bottom: 1em;
+
+}
+
+ .formsubmitbutton {
+  background-color: #ffffff;
+  color: #ff3366;
+  border: solid #ff3366 .5px;
+  font-family: caviarDreams;
+  font-size: 16px;
+}
+
+.screen-reader-response {
+
 }
 
 /*-- Blog Index Page --*/
@@ -392,7 +420,6 @@ nav {
     display: inline-block;
     text-decoration: none;
 }
-<<<<<<< HEAD
 
 .screen-reader-text {
   color: #69c9ca;     /*turquoise color*/
