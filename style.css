@@ -519,38 +519,38 @@ nav {
         height: 245px;
         margin-bottom: 3px;
   }
-    .four.columns {
+    .resourcesbox.four.columns {
       width: 29%;
     }
 
-    .four.column {
+  /*--  .resourcesbox.four.column {
       width: 29%;
     }
-
-    .four.columns {
+--*/
+    .resourcesbox.four.columns {
       margin-left: 2%;
     }
-
+/*--
     .four.column {
       margin-left: 2%;
     }
-
-    .four.columns:nth-child(2){
-      margin-left: 1%;
+--*/
+    .resourcesbox.four.columns:nth-child(2){
+      margin-left: 2%;
     }
-
+/*--
     .four.column:nth-child(2) {
       margin-left: 1%;
     }
-
-    .four.columns:nth-child(3){
-      margin-left: 1%;
+--*/
+    .resourcesbox.four.columns:nth-child(3){
+      margin-left:2%;
     }
-
+/*--
     .four.column:nth-child(3) {
       margin-left: 1%;
     }
-
+--*/
     .row-footerContact.three.columns {
       margin-left: 2%;
     }
