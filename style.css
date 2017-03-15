@@ -250,6 +250,11 @@ nav {
 
 /*-- Contact Page --*/
 
+.contactcontainer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .contactimage img {
     border-radius: 50%;
     margin: auto;
@@ -281,7 +286,6 @@ nav {
   margin-bottom: 0;
 }
 
-
 .forminput {
   color: #000000;
   font-size: 16px;
@@ -292,9 +296,7 @@ nav {
   width: 95%;
 }
 
-
-
- .formsubmitbutton {
+input[type="submit"] {
   background-color: #ff3366;
   color: #ffffff;
   border: none;
@@ -304,7 +306,7 @@ nav {
 
 }
 
- .formsubmitbutton {
+input[type="submit"]:hover {
   background-color: #ffffff;
   color: #ff3366;
   border: solid #ff3366 .5px;

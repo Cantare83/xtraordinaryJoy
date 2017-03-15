@@ -3,6 +3,7 @@
 <?php get_header(); ?>
 
     <section class="row">
+      <div class="contactcontainer">
         <div class="six columns">
 
           <div class="contactimage">
@@ -22,7 +23,7 @@
           </div>
 
         </div>
-
+      </div>
     </section>
 
 <?php get_footer(); ?>
