@@ -252,6 +252,8 @@ nav {
 
 .contactimage img {
     border-radius: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 .contactinfo {
@@ -270,22 +272,48 @@ nav {
     margin: auto;
     width: 95%;
     background: #69c9ca;
-}
-
-.form label {
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 1.5em;
-    font-family: 'Raleway', sans-serif;
     padding: 0.5em;
 }
 
-.form input {
+.form p {
+  text-align: center;
+  padding: 0.3em;
+  margin-bottom: 0;
+}
+
+
+.forminput {
   color: #000000;
   font-size: 16px;
   line-height: 1.5em;
   font-family: 'Raleway', sans-serif;
-  margin: auto;
+  padding: 0.1em;
+  margin-left: auto;
+  width: 95%;
+}
+
+
+
+ .formsubmitbutton {
+  background-color: #ff3366;
+  color: #ffffff;
+  border: none;
+  font-family: caviarDreams;
+  font-size: 16px;
+  padding-bottom: 1em;
+
+}
+
+ .formsubmitbutton {
+  background-color: #ffffff;
+  color: #ff3366;
+  border: solid #ff3366 .5px;
+  font-family: caviarDreams;
+  font-size: 16px;
+}
+
+.screen-reader-response {
+
 }
 
 /*-- Blog Index Page --*/
@@ -392,7 +420,6 @@ nav {
     display: inline-block;
     text-decoration: none;
 }
-<<<<<<< HEAD
 
 .screen-reader-text {
   color: #69c9ca;     /*turquoise color*/
@@ -473,9 +500,8 @@ nav {
   background-color: #ff3366;
 }
 
-.row-Eventsfoosball, .row-Eventsball {
+.events-ball, .events-foosball {
   margin-bottom: 5%;
-  border-bottom: solid 1px #7f7f7f;
 }
 
 /*-----Footer------*/
@@ -498,15 +524,18 @@ nav {
   width: 29%;
 }*/
 
-.row-footerContact {
+.footerbottom {
   margin-top: 2%;
   margin-bottom: 2%;
-  border-top: dotted #ff3366;
-  border-bottom: dotted #ff3366;
+  border-top: solid #ff3366;
 }
 
 .row-footerContact.two.columns, .row-footerContact.two.column {
-    margin-left: 2%;
+     margin-left: 2%;
+}
+
+.footerbottom.four.columns {
+  width: 27%;
 }
 
   @media (min-width: 768px){
@@ -519,40 +548,45 @@ nav {
   .resourcesbox.four.columns, .resourcesbox.four.column {
       width: 29%;
   }
-  
+
 /*    .four.columns {
-      width: 29%;
-    }
-
-    .four.column {
-      width: 29%;
-    }
-
+||||||| merged common ancestors
     .four.columns {
-      margin-left: 2%;
+=======
+    .resourcesbox.four.columns {
+>>>>>>> origin/master
+      width: 29%;
     }
 
+  /*--  .resourcesbox.four.column {
+      width: 29%;
+    }
+--*/
+    .resourcesbox.four.columns {
+      margin-left: 2%;
+    }
+/*--
     .four.column {
       margin-left: 2%;
     }
-
-    .four.columns:nth-child(2){
-      margin-left: 1%;
+--*/
+    .resourcesbox.four.columns:nth-child(2){
+      margin-left: 2%;
     }
-
+/*--
     .four.column:nth-child(2) {
       margin-left: 1%;
     }
-
-    .four.columns:nth-child(3){
-      margin-left: 1%;
+--*/
+    .resourcesbox.four.columns:nth-child(3){
+      margin-left:2%;
     }
-
+/*--
     .four.column:nth-child(3) {
       margin-left: 1%;
     }
-
-    .row-footerContact.three.columns {
+--*/
+    .footerbottom.three.columns {
       margin-left: 2%;
     }
 }*/

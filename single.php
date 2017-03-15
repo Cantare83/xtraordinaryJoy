@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 
-    <section class="row">
+    <section class="row postcontainer">
         <div class="eight columns">
-          <div class="postcontainer">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
@@ -30,7 +29,6 @@
 <!-- End Page PHP -->
 
         </div>
-      </div>
 
         <div class="three columns">
             <?php get_sidebar(); ?>
