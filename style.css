@@ -505,6 +505,14 @@ nav {
   margin-bottom: 5%;
   border-bottom: .5px solid #7f7f7f;
 }
+.events-ball {
+  margin-top: 3%;
+}
+
+.events2-widget {
+  background-color: #69c9ca;
+  padding: 3%; 
+}
 
 /*-----Footer------*/
 
