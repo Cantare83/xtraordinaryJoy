@@ -502,6 +502,7 @@ nav {
 
 .events-ball, .events-foosball {
   margin-bottom: 5%;
+  border-bottom: .5px solid #ff3366;
 }
 
 /*-----Footer------*/
