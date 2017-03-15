@@ -494,10 +494,9 @@ nav {
   text-decoration: none;
 }
 
-.resources.four.columns {
+/*.resources.four.columns {
   width: 29%;
-
-}
+}*/
 
 .row-footerContact {
   margin-top: 2%;
@@ -506,7 +505,7 @@ nav {
   border-bottom: dotted #ff3366;
 }
 
-.row-footerContact.two.columns, .row-footerContact.tow.column {
+.row-footerContact.two.columns, .row-footerContact.two.column {
     margin-left: 2%;
 }
 
@@ -516,7 +515,12 @@ nav {
         height: 245px;
         margin-bottom: 3px;
   }
-    .four.columns {
+
+  .resourcesbox.four.columns, .resourcesbox.four.column {
+      width: 29%;
+  }
+  
+/*    .four.columns {
       width: 29%;
     }
 
@@ -551,7 +555,7 @@ nav {
     .row-footerContact.three.columns {
       margin-left: 2%;
     }
-}
+}*/
 
   .resourcesbox {
     align-content: center;
