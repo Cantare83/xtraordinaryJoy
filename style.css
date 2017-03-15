@@ -525,17 +525,17 @@ nav {
 
 }
 
-.row-footerContact {
+.footerbottom {
   margin-top: 2%;
   margin-bottom: 2%;
   border-top: solid #ff3366;
 }
 
-.row-footerContact.two.columns, .row-footerContact.two.column {
+.footerbottom.two.columns, .footerbottom.two.column {
     margin-left: 2%;
 }
 
-.row-footerContact.four.columns {
+.footerbottom.four.columns {
   width: 27%;
 }
 
@@ -577,7 +577,7 @@ nav {
       margin-left: 1%;
     }
 --*/
-    .row-footerContact.three.columns {
+    .footerbottom.three.columns {
       margin-left: 2%;
     }
 }
