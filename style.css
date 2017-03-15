@@ -520,10 +520,6 @@ nav {
   text-decoration: none;
 }
 
-/*.resources.four.columns {
-  width: 29%;
-}*/
-
 .footerbottom {
   margin-top: 2%;
   margin-bottom: 2%;
@@ -545,51 +541,26 @@ nav {
         margin-bottom: 3px;
   }
 
-  .resourcesbox.four.columns, .resourcesbox.four.column {
+    .resourcesbox.four.columns, .resourcesbox.four.column {
       width: 29%;
   }
 
-/*    .four.columns {
-||||||| merged common ancestors
-    .four.columns {
-=======
     .resourcesbox.four.columns {
->>>>>>> origin/master
-      width: 29%;
+      margin-left: 2%;
     }
 
-  /*--  .resourcesbox.four.column {
-      width: 29%;
-    }
---*/
-    .resourcesbox.four.columns {
-      margin-left: 2%;
-    }
-/*--
-    .four.column {
-      margin-left: 2%;
-    }
---*/
     .resourcesbox.four.columns:nth-child(2){
       margin-left: 2%;
     }
-/*--
-    .four.column:nth-child(2) {
-      margin-left: 1%;
-    }
---*/
+
     .resourcesbox.four.columns:nth-child(3){
       margin-left:2%;
     }
-/*--
-    .four.column:nth-child(3) {
-      margin-left: 1%;
-    }
---*/
+
     .footerbottom.three.columns {
       margin-left: 2%;
     }
-}*/
+}
 
   .resourcesbox {
     align-content: center;
