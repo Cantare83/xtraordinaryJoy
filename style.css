@@ -257,8 +257,8 @@ nav {
 
 .contactimage img {
     border-radius: 50%;
+    display: block;
     margin: auto;
-    text-align: center;
 }
 
 .contactinfo {
@@ -274,15 +274,12 @@ nav {
 }
 
 .form {
-    margin: auto;
-    width: 95%;
-    background: #69c9ca;
-    padding: 0.5em;
+  background: #69c9ca;
 }
 
 .form p {
   text-align: center;
-  padding: 0.3em;
+  padding: 0.5em;
   margin-bottom: 0;
 }
 
@@ -292,17 +289,16 @@ nav {
   line-height: 1.5em;
   font-family: 'Raleway', sans-serif;
   padding: 0.1em;
-  margin-left: auto;
+  margin-bottom: 0.5em;
   width: 95%;
 }
 
 input[type="submit"] {
   background-color: #ff3366;
   color: #ffffff;
-  border: none;
   font-family: caviarDreams;
   font-size: 16px;
-  padding-bottom: 1em;
+  margin-bottom: 0;
 
 }
 
@@ -315,7 +311,22 @@ input[type="submit"]:hover {
 }
 
 .screen-reader-response {
+  background-color: #ffffff;
+  color: #ff3366;
+  border: solid #ff3366 .5px;
+  font-family: caviarDreams;
+  font-size: 16px;
+}
 
+div.wpcf7-response-output, div.wpcf7-validation-errors {
+  background-color: #ffffff;
+  color: #ff3366;
+  border: solid #ff3366 .5px;
+  font-family: caviarDreams;
+  font-size: 16px;
+  margin: 0 1em 1em 1em;
+  text-align: center;
+  padding: 1em;
 }
 
 /*-- Blog Index Page --*/
@@ -513,7 +524,7 @@ input[type="submit"]:hover {
 
 .events2-widget {
   background-color: #69c9ca;
-  padding: 3%; 
+  padding: 3%;
 }
 
 /*-----Footer------*/
