@@ -493,6 +493,7 @@ input[type="submit"]:hover {
 .eventstop-widget {
   background-color: #ff3366;
   padding: 3px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -504,7 +505,15 @@ input[type="submit"]:hover {
 
 .events-ball, .events-foosball {
   margin-bottom: 5%;
-  border-bottom: .5px solid #ff3366;
+  border-bottom: .5px solid #7f7f7f;
+}
+.events-ball {
+  margin-top: 3%;
+}
+
+.events2-widget {
+  background-color: #69c9ca;
+  padding: 3%; 
 }
 
 /*-----Footer------*/
