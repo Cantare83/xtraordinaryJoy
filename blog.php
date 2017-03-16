@@ -16,7 +16,7 @@ Template Name: Blog
 					   ?>
 
              <div class="blogposts">
-                <div class="three columns">
+                <div class="four columns">
                     <?php
                       if ( has_post_thumbnail() ) {
                         the_post_thumbnail('thumbnail');
@@ -24,7 +24,7 @@ Template Name: Blog
                     ?>
                </div>
 
-               <div class="nine columns">
+               <div class="eight columns">
 
                  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 		             <?php the_excerpt(__('Continue reading »','example')); ?>
