@@ -535,8 +535,8 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 .eventstop-widget {
   background-color: #ff99cc;
-  padding: 3px;
-  padding-top: 20px;
+  padding: 1px;
+  padding-top: 3%;
   text-align: center;
   margin-top: 2%;
 }
@@ -546,6 +546,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   color: #ffffff;
   background-color: #ff99cc;
   padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .events-ball, .events-foosball {
