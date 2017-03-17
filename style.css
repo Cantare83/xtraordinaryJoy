@@ -548,7 +548,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 .events-ball, .events-foosball {
   margin-bottom: 5%;
-  border-bottom: .5px solid #7f7f7f;
+  /*--border-bottom: .5px solid #7f7f7f;--*/
 }
 .events-ball {
   margin-top: 3%;
