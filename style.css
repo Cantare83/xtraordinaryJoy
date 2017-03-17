@@ -562,6 +562,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   padding: 3%;
 }
 
+.flex-control-nav {
+  bottom: -15px;
+  line-height: 1px;
+}
 /*-----Footer------*/
 
 .footer-container {
