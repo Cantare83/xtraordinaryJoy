@@ -252,6 +252,33 @@ nav {
     padding-top: 40px;
 }
 
+/*-- About Page --*/
+
+.about-copy1-widget {
+    padding-left: 5%;
+    padding-top: 15%;
+}
+
+.about-image1-widget, .about-copy2-widget {
+    padding-bottom: 15%;
+}
+
+.about-copy2-widget {
+    padding-bottom: 10%;
+}
+
+.about-copy2-widget p {
+    padding-right: 10%;
+}
+
+.about-image2-widget {
+    padding-top: 15%;
+}
+
+.aboutBottom {
+    border-bottom: solid .5px #7f7f7f;
+}
+
 /*-- Contact Page --*/
 
 .contactcontainer {

@@ -19,7 +19,7 @@ Template Name: About Us Page
             <?php dynamic_sidebar('about-copy1-widget'); ?>
         </div>
       </section>
-      <section class="row">
+      <section class="row aboutBottom">
         <div class="seven columns">
             <?php dynamic_sidebar('about-copy2-widget'); ?>
         </div>
