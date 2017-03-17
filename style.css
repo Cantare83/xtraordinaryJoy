@@ -538,6 +538,8 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   padding: 3px;
   padding-top: 20px;
   text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .eventstitle h3 {
