@@ -43,10 +43,10 @@ get_header(); ?>
   <section class="row">
     <div class="events-foosball">
       <div class="six columns">
-            <?php dynamic_sidebar('eventsfoosball-widget'); ?>
+            <?php dynamic_sidebar('eventsdifftext-widget'); ?>
       </div>
       <div class="six columns">
-        <?php dynamic_sidebar('events2-widget'); ?>
+        <?php dynamic_sidebar('eventsdiffgallery-widget'); ?>
       </div>
     </div>
   </section>
