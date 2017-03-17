@@ -534,18 +534,17 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 /*----- Events Page----*/
 
 .eventstop-widget {
-  background-color: #ff3366;
+  background-color: #ff99cc;
   padding: 3px;
   padding-top: 20px;
   text-align: center;
   margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 .eventstitle h3 {
   text-align: center;
   color: #ffffff;
-  background-color: #ff3366;
+  background-color: #ff99cc;
   padding-bottom: 1%;
 }
 
