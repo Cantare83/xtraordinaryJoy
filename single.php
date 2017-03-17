@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <section class="row postcontainer">
-        <div class="eight columns">
+        <div class="nine columns">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
