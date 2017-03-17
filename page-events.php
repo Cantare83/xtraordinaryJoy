@@ -41,7 +41,7 @@ get_header(); ?>
 <!-- End Ball Section -->
 <!-- Beginning of Making a Difference Section -->
   <section class="row">
-    <div class="events-foosball">
+    <div class="events-difference">
       <div class="six columns">
             <?php dynamic_sidebar('eventsdifftext-widget'); ?>
       </div>
