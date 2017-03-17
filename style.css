@@ -564,6 +564,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 /*-----Footer------*/
 
+.footer-container {
+  border-top: solid .5px #7f7f7f;
+}
+
 .researchtitle {
   text-align: center;
 }
