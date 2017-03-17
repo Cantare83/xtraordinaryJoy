@@ -26,7 +26,7 @@ get_header(); ?>
         </div>
       </div>
     </section>
-<!-- Dnd foosball section -->
+<!-- End foosball section -->
 <!-- Ball Section -->
     <section class="row">
      <div class="events-ball">
@@ -39,5 +39,16 @@ get_header(); ?>
     </div>
   </section>
 <!-- End Ball Section -->
-
+<!-- Beginning of Making a Difference Section -->
+  <section class="row">
+    <div class="events-foosball">
+      <div class="six columns">
+            <?php dynamic_sidebar('eventsfoosball-widget'); ?>
+      </div>
+      <div class="six columns">
+        <?php dynamic_sidebar('events2-widget'); ?>
+      </div>
+    </div>
+  </section>
+<!-- End of Making a Difference Section -->
 <?php get_footer(); ?>

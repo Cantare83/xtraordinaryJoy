@@ -208,6 +208,27 @@ register_sidebar( array(
   'after_title'   => '</h3>'
 ));
 
+/*-- Events Making a Difference Widgets --*/
+  register_sidebar( array(
+  'name'          => ('Events Difference Text Widget'),
+  'id'            => 'eventsdifftext-widget',
+  'description'   => 'Widget Difference text events',
+  'before_widget' => '<div class="eventsdifftext-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+  register_sidebar( array(
+  'name'          => ('Events Difference Gallery Widget'),
+  'id'            => 'eventsdiffgallery-widget',
+  'description'   => 'Widget Difference Gallery events',
+  'before_widget' => '<div class="eventsdiffgallery-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
 /*----- Resources Widgets in Footer--------*/
   register_sidebar( array(
     'name'          => ('Resources 1 Widget'),
