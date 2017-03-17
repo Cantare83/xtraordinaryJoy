@@ -546,6 +546,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   text-align: center;
   color: #ffffff;
   background-color: #ff3366;
+  padding-bottom: 1%;
 }
 
 .events-ball, .events-foosball {
@@ -556,7 +557,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-top: 3%;
 }
 
-.events2-widget {
+.events2-widget, .events3-widget {
   background-color: #69c9ca;
   padding: 3%;
 }
