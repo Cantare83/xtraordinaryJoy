@@ -289,8 +289,8 @@ nav {
 /*-- Contact Page --*/
 
 .contactcontainer {
-  margin-top: 5%;
-  margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .contactimage img {
@@ -311,67 +311,77 @@ nav {
     margin-bottom: 0;
 }
 
-.wcpf7 {
-  background: #69c9ca;
+.wpcf7-form {
+    margin-bottom: 0;
+}
+
+.form {
+    padding: 10px;
+    border: 1px solid #69c9ca;
+    border-radius: 25px;
+}
+
+.form h2 {
+    text-align: center;
 }
 
 .form p {
-  text-align: center;
-  padding: 0.5em;
-  margin-bottom: 0;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0;
 }
 
 .forminput {
-  color: #000000;
-  font-size: 16px;
-  line-height: 1.5em;
-  font-family: 'Raleway', sans-serif;
-  padding: 0.1em;
-  margin-bottom: 0.5em;
-  width: 95%;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.1em;
+    margin-bottom: 0.5em;
+    width: 95%;
 }
 
 input[type="submit"] {
-  background-color: #ff3366;
-  color: #ffffff;
-  font-family: caviarDreams;
-  font-size: 16px;
-  margin-bottom: 0;
+    background-color: #ff3366;
+    color: #ffffff;
+    font-family: caviarDreams;
+    font-size: 16px;
+    margin-bottom: 0;
 
 }
 
 input[type="submit"]:hover {
-  background-color: #ffffff;
-  color: #ff3366;
-  border: solid #ff3366 .5px;
-  font-family: caviarDreams;
-  font-size: 16px;
+    background-color: #ffffff;
+    color: #ff3366;
+    border: solid #ff3366 .5px;
+    font-family: caviarDreams;
+    font-size: 16px;
 }
 
 .screen-reader-response {
-  background-color: #ffffff;
-  color: #ff3366;
-  border: solid #ff3366 .5px;
-  font-family: caviarDreams;
-  font-size: 16px;
+    background-color: #ffffff;
+    color: #ff3366;
+    border: solid #ff3366 .5px;
+    font-family: caviarDreams;
+    font-size: 16px;
 }
 
 div.wpcf7-response-output, div.wpcf7-validation-errors {
-  background-color: #ffffff;
-  color: #ff3366;
-  border: solid #ff3366 .5px;
-  font-family: caviarDreams;
-  font-size: 16px;
-  margin: 0 1em 1em 1em;
-  text-align: center;
-  padding: 1em;
+    background-color: #ffffff;
+    color: #ff3366;
+    border: solid #ff3366 .5px;
+    font-family: caviarDreams;
+    font-size: 16px;
+    margin: 0 1em 1em 1em;
+    text-align: center;
+    padding: 1em;
 }
 
 /*-- Blog Index Page --*/
 
 .blogcontainer {
-  margin-top: 5%;
-  margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .blogposts img {
@@ -441,11 +451,11 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     }
 
     .sidebar {
-      margin-top: 0;
+        margin-top: 0;
     }
 
     #searchsubmit {
-      float: right;
+        float: right;
     }
 
     .sidebar ul, li {
@@ -454,18 +464,18 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     }
 
     .widget-sidebar {
-      text-align: left;
+        text-align: left;
     }
 
     .posttitle h3, .postimage img {
-      text-align: left;
+        text-align: left;
     }
 }
 
 /*-----Sidebar-----*/
 
 .widget-sidebar {
-  margin-bottom:
+    margin-bottom:
 }
 
 .sidebar ul, li {
@@ -474,25 +484,24 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 }
 
 .screen-reader-text {
-  color: #69c9ca;     /*turquoise color*/
-  font-family: caviarDreams;
-  margin-bottom: 1rem;
-  font-size: 2.0rem;
-  line-height: 1.35;
-  letter-spacing: -.08rem;
+    color: #69c9ca;     /*turquoise color*/
+    font-family: caviarDreams;
+    margin-bottom: 1rem;
+    font-size: 2.0rem;
+    line-height: 1.35;
+    letter-spacing: -.08rem;
 } /*-- Search Sidebar Title --*/
 
 #s {
-  width: 100%;
+    width: 100%;
 } /*-- Search Sidebar Input --*/
 
 #searchsubmit {
-  background-color: #ff3366;
-  color: #ffffff;
-  border: none;
-  font-family: caviarDreams;
-  font-size: 11px;
-
+    background-color: #ff3366;
+    color: #ffffff;
+    border: none;
+    font-family: caviarDreams;
+    font-size: 11px;
 } /*-- Search Submit Button --*/
 
 #searchsubmit:hover {
@@ -506,24 +515,24 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 /*-----Blog Post Page------*/
 
-.blogcontainer {
-  margin-top: 5%;
-  margin-bottom: 5%;
+.postcontainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .posttitle {
-  overflow: hidden;
-  margin-bottom: 1em;
+    overflow: hidden;
+    margin-bottom: 1em;
 }
 
 .posttitle h3 {
-  margin-top: 10%;
+    margin-top: 10%;
 }
 
 .postimage img {
-  border-radius: 50%;
-  margin: auto;
-  display: block;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
 }
 
 
@@ -531,29 +540,29 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 /*-----Search------*/
 
 .searchresult {
-  color: #ff3366;
+    color: #ff3366;
 }
 
 .search {
-  margin-top: 12%;
+    margin-top: 12%;
 }
 
 /*----- Events Page----*/
 
 .eventstop-widget {
-  background-color: #ff99cc;
-  padding: 1px;
-  padding-top: 3%;
-  text-align: center;
-  margin-top: 2%;
+    background-color: #ff99cc;
+    padding: 1px;
+    padding-top: 3%;
+    text-align: center;
+    margin-top: 2%;
 }
 
 .eventstitle h3 {
-  text-align: center;
-  color: #ffffff;
-  background-color: #ff3366;
-  padding-bottom: 1%;
-  padding-top: 1%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff3366;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 .events-ball, .events-foosball {
