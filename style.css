@@ -279,6 +279,14 @@ nav {
     border-bottom: solid .5px #7f7f7f;
 }
 
+.about-image2-widget figure {
+    margin: 0;
+}
+
+.about-image2-widget figcaption {
+    text-align: center;
+}
+
 /*-- Contact Page --*/
 
 .contactcontainer {
