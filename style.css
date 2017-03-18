@@ -544,7 +544,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 .eventstitle h3 {
   text-align: center;
   color: #ffffff;
-  background-color: #ff99cc;
+  background-color: #ff3366;
   padding-bottom: 1%;
   padding-top: 1%;
 }
@@ -649,6 +649,11 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     margin-bottom: 8px;
   }
 
+    .resources1 a, .resources2 a, .resources3 a {
+      color: #ff3366;     /*pink color*/
+      text-decoration: none;
+      padding-bottom: 1%;
+  }
   .resources1:hover, .resources2:hover, .resources3:hover {
     border: 1px solid #ff3366;
   }
