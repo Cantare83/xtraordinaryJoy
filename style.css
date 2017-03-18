@@ -599,8 +599,8 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 .footerbottom {
   margin-top: 2%;
-  margin-bottom: 2%;
-  border-top: solid #ff3366;
+  padding-top: 2%;
+  border-top: solid .5px #ff3366;
 }
 
 .row-footerContact.two.columns, .row-footerContact.two.column {
