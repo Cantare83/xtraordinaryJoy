@@ -5,7 +5,7 @@ Template Name: About Us Page
 ?>
 
 <?php get_header(); ?>
-    <div class="container">
+    <div class="about-container">
       <section class="row">
         <div class="twelve columns">
             <?php dynamic_sidebar('about-header-widget'); ?>

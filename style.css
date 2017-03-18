@@ -48,10 +48,6 @@ p {
     text-align: justify;
 }
 
-.container {
-    width: 100%;
-}
-
 .button, #give-purchase-button {
     background-color: #ff3366;
     color: #ffffff;
@@ -253,6 +249,10 @@ nav {
 }
 
 /*-- About Page --*/
+
+.about-container {
+    width: 100%;
+}
 
 .about-copy1-widget {
     padding-left: 5%;
