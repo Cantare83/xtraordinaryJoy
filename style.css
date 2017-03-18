@@ -229,10 +229,6 @@ nav {
     border-bottom: solid .5px #7f7f7f;
 }
 
-.hpEvents {
-    border-bottom: solid .5px #7f7f7f;
-}
-
 .hpEvents video {
     max-width: 90%;
     height: auto;
@@ -272,10 +268,6 @@ nav {
 
 .about-image2-widget {
     padding-top: 15%;
-}
-
-.aboutBottom {
-    border-bottom: solid .5px #7f7f7f;
 }
 
 .about-image2-widget figure {
