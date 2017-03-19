@@ -675,6 +675,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     border: 1px solid #ff3366;
   }
 
+  .menu-navigation-container {
+    padding-left: 1%;
+  }
+
   .menu-navigation-container ul {
     list-style: none;
     columns: 2;
