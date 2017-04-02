@@ -133,7 +133,7 @@ nav a.mobile_menu {
 }
 
 .menu-header ul li a {
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -185,11 +185,10 @@ nav {
 
     .menu-header ul li a {
         text-decoration:none;
-        margin: 4px;
-        padding: 10px 60px 10px 60px;
+        padding: 10px 3% 10px 3%;
         font-size: 1.1rem;
         color: #69c9ca;
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
 
     .menu-header ul li a:hover{
