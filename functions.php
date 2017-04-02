@@ -13,7 +13,8 @@ function blank_widgets_init() {
         'after_title'   => '</h4>'
     ));
 
-    /*--- Index Page Widgets ---*/
+/*--- Index Page Widgets ---*/
+/*-- HP Intro Widgets --*/
     register_sidebar( array(
       'name'          => ('Intro 1 Widget'),
       'id'            => 'home-intro1-widget',
@@ -32,6 +33,7 @@ function blank_widgets_init() {
       'before_title'  => '<h1>',
       'after_title'   => '</h1>'
     ));
+/*-- HP About Widgets --*/
     register_sidebar( array(
     'name'          => ('About 1 Widget'),
     'id'            => 'home-about1-widget',
@@ -50,6 +52,26 @@ function blank_widgets_init() {
     'before_title'  => '<h2>',
     'after_title'   => '</h2>'
   ));
+/*-- Become a Sponsor Widgets --*/
+    register_sidebar( array(
+    'name'          => ('Home Sponsor Image Widget'),
+    'id'            => 'home-sponsor-image-widget',
+    'description'   => 'Widget sponsor image home',
+    'before_widget' => '<div class="home-sponsor-image-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>'
+  ));
+  register_sidebar( array(
+  'name'          => ('Home Sponsor Text Widget'),
+  'id'            => 'home-sponsor-text-widget',
+  'description'   => 'Widget sponsor text home',
+  'before_widget' => '<div class="home-sponsor-text-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h2>',
+  'after_title'   => '</h2>'
+));
+/*-- HP Events Widgets --*/
   register_sidebar( array(
   'name'          => ('Events 1 Widget'),
   'id'            => 'home-events1-widget',
@@ -203,27 +225,6 @@ register_sidebar( array(
   'id'            => 'events3-widget',
   'description'   => 'Widget ball events',
   'before_widget' => '<div class="events3-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
-));
-
-/*-- Events Making a Difference Widgets --*/
-  register_sidebar( array(
-  'name'          => ('Events Difference Text Widget'),
-  'id'            => 'eventsdifftext-widget',
-  'description'   => 'Widget Difference text events',
-  'before_widget' => '<div class="eventsdifftext-widget">',
-  'after_widget'  => '</div>',
-  'before_title'  => '<h3>',
-  'after_title'   => '</h3>'
-));
-
-  register_sidebar( array(
-  'name'          => ('Events Difference Gallery Widget'),
-  'id'            => 'eventsdiffgallery-widget',
-  'description'   => 'Widget Difference Gallery events',
-  'before_widget' => '<div class="eventsdiffgallery-widget">',
   'after_widget'  => '</div>',
   'before_title'  => '<h3>',
   'after_title'   => '</h3>'
