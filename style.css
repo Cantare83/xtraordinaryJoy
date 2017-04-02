@@ -133,6 +133,7 @@ nav a.mobile_menu {
 }
 
 .menu-header ul li a {
+  font-family: caviarDreams;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -184,6 +185,7 @@ nav {
     }
 
     .menu-header ul li a {
+        font-family: caviarDreams;
         text-decoration:none;
         padding: 10px 3% 10px 3%;
         font-size: 1.1rem;
