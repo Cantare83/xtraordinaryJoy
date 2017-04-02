@@ -12,10 +12,10 @@ Template Name: About Us Page
         </div>
       </section>
       <section class="row">
-        <div class="five columns">
+        <div class="six columns">
             <?php dynamic_sidebar('about-image1-widget'); ?>
         </div>
-        <div class="seven columns">
+        <div class="six columns">
             <?php dynamic_sidebar('about-copy1-widget'); ?>
         </div>
       </section>
