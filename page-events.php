@@ -39,16 +39,4 @@ get_header(); ?>
     </div>
   </section>
 <!-- End Ball Section -->
-<!-- Beginning of Making a Difference Section -->
-  <section class="row">
-    <div class="events-difference">
-      <div class="six columns">
-            <?php dynamic_sidebar('eventsdifftext-widget'); ?>
-      </div>
-      <div class="six columns">
-        <?php dynamic_sidebar('eventsdiffgallery-widget'); ?>
-      </div>
-    </div>
-  </section>
-<!-- End of Making a Difference Section -->
 <?php get_footer(); ?>

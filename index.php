@@ -17,6 +17,18 @@
       <?php dynamic_sidebar('home-about2-widget'); ?>
     </div>
 </section>
+<!-- Become a Sponsor Section -->
+<section class="row">
+    <div class="events-difference">
+      <div class="six columns">
+            <?php dynamic_sidebar('eventsdifftext-widget'); ?>
+      </div>
+      <div class="six columns">
+        <?php dynamic_sidebar('eventsdiffgallery-widget'); ?>
+      </div>
+    </div>
+</section>
+<!-- End of Become a Sponsor Section -->
 <section class="row hpEvents">  <!-- Events Section -->
     <div class="seven columns">
       <?php dynamic_sidebar('home-events1-widget'); ?>
