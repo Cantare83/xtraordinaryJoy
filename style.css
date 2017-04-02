@@ -247,6 +247,10 @@ nav {
 
 /*-- About Page --*/
 
+.aboutBottom {
+    padding-top: 5%;
+}
+
 .about-container {
     width: 100%;
 }
