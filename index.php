@@ -18,15 +18,13 @@
     </div>
 </section>
 <!-- Become a Sponsor Section -->
-<section class="row">
-    <div class="events-difference">
+<section class="row hpSponsor">
       <div class="six columns">
         <?php dynamic_sidebar('home-sponsor-image-widget'); ?>
       </div>
       <div class="six columns">
             <?php dynamic_sidebar('home-sponsor-text-widget'); ?>
       </div>
-    </div>
 </section>
 <!-- End of Become a Sponsor Section -->
 <section class="row hpEvents">  <!-- Events Section -->

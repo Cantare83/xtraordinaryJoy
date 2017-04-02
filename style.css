@@ -212,13 +212,17 @@ nav {
 
 /*-- Index Page --*/
 
-.hpIntro, .hpEvents {
+.hpIntro, .hpEvents, .hpAbout, .hpSponsor {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .roundImage {
     border-radius: 50%;
+}
+
+.hpSponsor {
+    border-bottom: solid .5px #7f7f7f;
 }
 
 .hpAbout {
@@ -561,13 +565,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-bottom: 2%;
   /*--border-bottom: .5px solid #7f7f7f;--*/
 }
-.events-ball, .events-foosball, .events-difference {
+.events-ball, .events-foosball {
   margin-top: 2%;
 }
 
-.events-difference {
-  padding-bottom: 2%;
-}
 .events2-widget, .events3-widget {
   background-color: #69c9ca;
   padding: 3%;
