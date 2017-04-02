@@ -542,7 +542,11 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 /*----- Events Page----*/
 
 .eventstop-widget {
-    background-color: #ff99cc;
+    background: #ff99cc; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#ff99cc,#ff3366); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#ff99cc,#ff3366); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#ff99cc,#ff3366); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #ff99cc, #ff3366); /*Standard*/
     padding: 1px;
     padding-top: 3%;
     text-align: center;
@@ -552,7 +556,6 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 .eventstitle h3 {
     text-align: center;
     color: #ffffff;
-    background-color: #ff3366;
     padding-bottom: 1%;
     padding-top: 1%;
 }
@@ -615,7 +618,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
-        height: 245px;
+        height: 450px;
         margin-bottom: 3px;
   }
 

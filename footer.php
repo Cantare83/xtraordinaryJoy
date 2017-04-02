@@ -5,6 +5,9 @@
         <div class="researchtitle">
           <h3>Research and Resources</h3>
         </div>
+        <div class="tweleve columns">
+          <p>
+        </div>
         <div class="resourcesbox">
           <div class="four columns">
               <?php dynamic_sidebar('resources1-widget'); ?>
