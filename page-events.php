@@ -39,4 +39,13 @@ get_header(); ?>
     </div>
   </section>
 <!-- End Ball Section -->
+<!-- End of Become a Sponsor Section -->
+  <section class="row">  <!-- Sponsor Section -->
+      <div class="tweleve columns">
+        <?php dynamic_sidebar('sponsortext-widget'); ?>
+      </div>
+      <div class="tweleve columns">
+        <?php dynamic_sidebar('sponsorimages-widget'); ?>
+      </div>
+  </section>
 <?php get_footer(); ?>

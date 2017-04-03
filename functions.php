@@ -229,6 +229,27 @@ register_sidebar( array(
   'before_title'  => '<h3>',
   'after_title'   => '</h3>'
 ));
+/*-- Sponsor Widgets--*/
+
+  register_sidebar( array(
+  'name'          => ('Sponsor Text Widget'),
+  'id'            => 'sponsortext-widget',
+  'description'   => 'Widget sponsor text',
+  'before_widget' => '<div class="sponsortext-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
+
+  register_sidebar( array(
+  'name'          => ('Sponsor Images Widget'),
+  'id'            => 'sponsorimages-widget',
+  'description'   => 'Widget sponsor images',
+  'before_widget' => '<div class="sponsorimages-widget">',
+  'after_widget'  => '</div>',
+  'before_title'  => '<h3>',
+  'after_title'   => '</h3>'
+));
 
 /*----- Resources Widgets in Footer--------*/
   register_sidebar( array(
