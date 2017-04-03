@@ -372,8 +372,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 /*-- Contact Form Media Queries --*/
 
-@media (min-width: 435px) {
-
+@media (min-width: 300px) {
   .wpcf7-list-item.first {
       margin-left: 0;
   }
