@@ -334,6 +334,12 @@ nav {
     width: 95%;
 }
 
+.form h4 {
+    font-size: 1.4em;
+    text-align: center;
+    color:
+}
+
 input[type="submit"] {
     background-color: #ff3366;
     color: #ffffff;
