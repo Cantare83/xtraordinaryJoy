@@ -556,6 +556,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 .eventstitle h3 {
     text-align: center;
     color: #ffffff;
+    background-color: #ff3366;
     padding-bottom: 1%;
     padding-top: 1%;
 }
