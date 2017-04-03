@@ -253,6 +253,15 @@ register_sidebar( array(
 
 /*----- Resources Widgets in Footer--------*/
   register_sidebar( array(
+    'name'          => ('Resources Widget'),
+    'id'            => 'resources-widget',
+    'description'   => 'Widget resouces text footer',
+    'before_widget' => '<div class="resources-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar( array(
     'name'          => ('Resources 1 Widget'),
     'id'            => 'resources1-widget',
     'description'   => 'Widget resources section 1 in footer',
