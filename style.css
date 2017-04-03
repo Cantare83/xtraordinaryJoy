@@ -333,6 +333,10 @@ nav {
     width: 95%;
 }
 
+.wpcf7-list-item.first {
+    margin-left: 0;
+}
+
 input[type="submit"] {
     background-color: #ff3366;
     color: #ffffff;
