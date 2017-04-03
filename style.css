@@ -581,6 +581,9 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   padding: 3%;
 }
 
+.sponsorsection h3 {
+  text-align: center;
+}
 .flex-control-nav {
   bottom: -15px;
   line-height: 1px;
