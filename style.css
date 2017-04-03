@@ -569,6 +569,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-top: 2%;
 }
 
+.events-ball {
+  border-bottom: solid .5px #7f7f7f;
+}
+
 .events-difference {
   padding-bottom: 2%;
 }
