@@ -85,6 +85,10 @@ p {
     }
 }
 
+header {
+  background-color: #69c9ca;
+}
+
 header p {
     margin-top: 1.5em;
     margin-bottom: 0;
@@ -129,8 +133,7 @@ nav a.mobile_menu {
 }
 
 .menu-header ul li a {
-  font-family: caviarDreams;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #ffffff;
 }
 
@@ -181,12 +184,12 @@ nav {
     }
 
     .menu-header ul li a {
-        font-family: caviarDreams;
         text-decoration:none;
-        padding: 10px 3% 10px 3%;
+        margin: 4px;
+        padding: 10px 60px 10px 60px;
         font-size: 1.1rem;
-        color: #ff3366;
-        text-transform: uppercase;
+        color: #69c9ca;
+        text-transform: capitalize;
     }
 
     .menu-header ul li a:hover{
@@ -212,17 +215,13 @@ nav {
 
 /*-- Index Page --*/
 
-.hpIntro, .hpEvents, .hpAbout, .hpSponsor {
+.hpIntro, .hpEvents {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .roundImage {
     border-radius: 50%;
-}
-
-.hpSponsor {
-    border-bottom: solid .5px #7f7f7f;
 }
 
 .hpAbout {
@@ -246,12 +245,6 @@ nav {
 }
 
 /*-- About Page --*/
-
-.aboutBottom {
-    padding-top: 5%;
-    margin-top: 5%;
-    border-top: solid #7f7f7f .5px;
-}
 
 .about-container {
     width: 100%;
@@ -571,10 +564,13 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-bottom: 2%;
   /*--border-bottom: .5px solid #7f7f7f;--*/
 }
-.events-ball, .events-foosball {
+.events-ball, .events-foosball, .events-difference {
   margin-top: 2%;
 }
 
+.events-difference {
+  padding-bottom: 2%;
+}
 .events2-widget, .events3-widget {
   background-color: #69c9ca;
   padding: 3%;
@@ -622,7 +618,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
-        height: 450px;
+        height: 245px;
         margin-bottom: 3px;
   }
 
