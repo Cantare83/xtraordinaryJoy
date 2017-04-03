@@ -295,6 +295,7 @@ nav {
     text-align: center;
     width: 75%;
     margin: auto;
+    margin-bottom: 1em;
 }
 
 .contactinfo h4 {
@@ -333,10 +334,6 @@ nav {
     width: 95%;
 }
 
-.wpcf7-list-item.first {
-    margin-left: 0;
-}
-
 input[type="submit"] {
     background-color: #ff3366;
     color: #ffffff;
@@ -371,6 +368,15 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     margin: 0 1em 1em 1em;
     text-align: center;
     padding: 1em;
+}
+
+/*-- Contact Form Media Queries --*/
+
+@media (min-width: 435px) {
+
+  .wpcf7-list-item.first {
+      margin-left: 0;
+  }
 }
 
 /*-- Blog Index Page --*/
