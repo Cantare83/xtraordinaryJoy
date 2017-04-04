@@ -270,6 +270,8 @@ nav {
 
 .aboutBottom {
     padding-top: 5%;
+    margin-top: 5%;
+    border-top: solid #7f7f7f .5px;
 }
 
 /*--.about-image2-widget figure {
