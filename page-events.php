@@ -16,27 +16,25 @@ get_header(); ?>
     </section>
 <!-- End events header section -->
 <!-- Events Foosball Section -->
-    <section class="row">
-      <div class="events-foosball">
+    <section class="row events-foosball">
         <div class="six columns">
               <?php dynamic_sidebar('eventsfoosball-widget'); ?>
         </div>
         <div class="six columns">
           <?php dynamic_sidebar('events2-widget'); ?>
         </div>
-      </div>
     </section>
 <!-- End foosball section -->
 <!-- Ball Section -->
-    <section class="row">
-     <div class="events-ball">
+    <section class="row events-ball">
+     <!--<div class="events-ball"> -->
         <div class="six columns">
             <?php dynamic_sidebar('events3-widget'); ?>
         </div>
         <div class="six columns">
               <?php dynamic_sidebar('eventsmball-widget'); ?>
         </div>
-    </div>
+    <!--</div> -->
   </section>
 <!-- End Ball Section -->
 <!-- End of Become a Sponsor Section -->

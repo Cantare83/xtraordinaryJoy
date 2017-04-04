@@ -297,7 +297,6 @@ nav {
     text-align: center;
     width: 75%;
     margin: auto;
-    margin-bottom: 1em;
 }
 
 .contactinfo h4 {
@@ -336,12 +335,6 @@ nav {
     width: 95%;
 }
 
-.form h4 {
-    font-size: 1.4em;
-    text-align: center;
-    color:
-}
-
 input[type="submit"] {
     background-color: #ff3366;
     color: #ffffff;
@@ -376,14 +369,6 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     margin: 0 1em 1em 1em;
     text-align: center;
     padding: 1em;
-}
-
-/*-- Contact Form Media Queries --*/
-
-@media (min-width: 300px) {
-  .wpcf7-list-item.first {
-      margin-left: 0;
-  }
 }
 
 /*-- Blog Index Page --*/
@@ -601,6 +586,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 .sponsorsection h3 {
   text-align: center;
 }
+
 .flex-control-nav {
   bottom: -15px;
   line-height: 1px;
@@ -675,6 +661,14 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   .footer-container p {
     margin-bottom: auto;
     text-align: center;
+  }
+
+  .resourcestext p {
+    text-align: justify;
+  }
+
+  #colorchange {
+    color: #69c9ca;
   }
 
   .resources1, .resources2, .resources3 {
