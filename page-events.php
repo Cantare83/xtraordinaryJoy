@@ -41,11 +41,24 @@ get_header(); ?>
 <!-- End Ball Section -->
 <!-- End of Become a Sponsor Section -->
   <section class="row">  <!-- Sponsor Section -->
+    <div class="sponsorsection">
       <div class="tweleve columns">
         <?php dynamic_sidebar('sponsortext-widget'); ?>
       </div>
-      <div class="tweleve columns">
-        <?php dynamic_sidebar('sponsorimages-widget'); ?>
+    </div>
+  </section>
+  <section class="row"> <!--Sponsor Boxes 4-->
+      <div class="three columns">
+        <?php dynamic_sidebar('sponsor1-widget'); ?>
+      </div>
+      <div class="three columns">
+        <?php dynamic_sidebar('sponsor2-widget'); ?>
+      </div>
+      <div class="three columns">
+        <?php dynamic_sidebar('sponsor3-widget'); ?>
+      </div>
+      <div class="three columns">
+        <?php dynamic_sidebar('sponsor4-widget'); ?>
       </div>
   </section>
 <?php get_footer(); ?>
