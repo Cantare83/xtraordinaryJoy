@@ -242,13 +242,43 @@ register_sidebar( array(
 ));
 
   register_sidebar( array(
-  'name'          => ('Sponsor Images Widget'),
-  'id'            => 'sponsorimages-widget',
-  'description'   => 'Widget sponsor images',
-  'before_widget' => '<div class="sponsorimages-widget">',
+  'name'          => ('Sponsor 1 Widget'),
+  'id'            => 'sponsor1-widget',
+  'description'   => 'Widget sponsor one',
+  'before_widget' => '<div class="sponsor1-widget">',
   'after_widget'  => '</div>',
   'before_title'  => '<h3>',
   'after_title'   => '</h3>'
+));
+
+register_sidebar( array(
+'name'          => ('Sponsor 2 Widget'),
+'id'            => 'sponsor2-widget',
+'description'   => 'Widget sponsor two',
+'before_widget' => '<div class="sponsor2-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
+register_sidebar( array(
+'name'          => ('Sponsor 3 Widget'),
+'id'            => 'sponsor3-widget',
+'description'   => 'Widget sponsor three',
+'before_widget' => '<div class="sponsor3-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
+register_sidebar( array(
+'name'          => ('Sponsor 4 Widget'),
+'id'            => 'sponsor4-widget',
+'description'   => 'Widget sponsor four',
+'before_widget' => '<div class="sponsor4-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
 ));
 
 /*----- Resources Widgets in Footer--------*/
@@ -261,6 +291,7 @@ register_sidebar( array(
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
   ));
+
   register_sidebar( array(
     'name'          => ('Resources 1 Widget'),
     'id'            => 'resources1-widget',
