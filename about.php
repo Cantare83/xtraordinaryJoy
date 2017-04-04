@@ -6,7 +6,7 @@ Template Name: About Us Page
 
 <?php get_header(); ?>
     <div class="about-container">
-      <section class="row">
+      <section class="row aboutTop">
         <div class="six columns">
             <?php dynamic_sidebar('about-image1-widget'); ?>
         </div>

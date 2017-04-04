@@ -264,17 +264,21 @@ nav {
     padding-right: 10%;
 }
 
-.about-image2-widget {
-    padding-top: 15%;
+.aboutTop {
+    padding-top: 5%;
 }
 
-.about-image2-widget figure {
+.aboutBottom {
+    padding-top: 5%;
+}
+
+/*--.about-image2-widget figure {
     margin: 0;
 }
 
 .about-image2-widget figcaption {
     text-align: center;
-}
+}--*/
 
 /*-- Contact Page --*/
 
