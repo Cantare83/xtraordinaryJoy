@@ -665,6 +665,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     text-align: justify;
   }
 
+  #colorchange {
+    color: #69c9ca;
+  }
+
   .resources1, .resources2, .resources3 {
     text-align: center;
     padding: 10px;
