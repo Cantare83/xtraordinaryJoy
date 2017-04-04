@@ -7,11 +7,6 @@ Template Name: About Us Page
 <?php get_header(); ?>
     <div class="about-container">
       <section class="row">
-        <div class="twelve columns">
-            <?php dynamic_sidebar('about-header-widget'); ?>
-        </div>
-      </section>
-      <section class="row">
         <div class="six columns">
             <?php dynamic_sidebar('about-image1-widget'); ?>
         </div>
