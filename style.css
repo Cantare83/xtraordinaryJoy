@@ -549,6 +549,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 /*----- Events Page----*/
 
+.events1 {
+  margin-bottom: 3%;
+}
+
 .eventstop-widget {
     background: #ff99cc; /* Old Browsers */
     background: -webkit-linear-gradient(top,#ff99cc,#ff3366); /*Safari 5.1-6*/
@@ -573,7 +577,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-bottom: 2%;
   /*--border-bottom: .5px solid #7f7f7f;--*/
 }
-.events-ball, .events-foosball, .events-difference {
+.events-ball, .events-foosball {
   margin-top: 2%;
 }
 
@@ -659,6 +663,15 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
       margin-left: 2%;
     }
 }
+
+@media (min-width: 886px){
+    .resources1, .resources2, .resources3 {
+      width: auto;
+      height: 255px;
+      margin-bottom: 3px;
+    }
+}
+
 
   .resourcesbox {
     align-content: center;
