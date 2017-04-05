@@ -213,7 +213,7 @@ nav {
 
 /*-- Index Page --*/
 
-.hpIntro, .hpEvents {
+.hpIntro, .hpEvents, .hpSponsor, .hpAbout {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -225,6 +225,10 @@ nav {
 .hpAbout {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
+}
+
+.hpEvents {
+    border-top: solid .5px #7f7f7f;
 }
 
 .hpEvents video {
