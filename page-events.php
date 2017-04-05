@@ -45,17 +45,19 @@ get_header(); ?>
       </div>
     </div>
   </section>
-  <section class="row"> <!--Sponsor Boxes 4-->
-      <div class="three columns">
+  <section class="row sponsors1"> <!--Sponsor Boxes 4-->
+      <div class="six columns">
         <?php dynamic_sidebar('sponsor1-widget'); ?>
       </div>
-      <div class="three columns">
+      <div class="six columns">
         <?php dynamic_sidebar('sponsor2-widget'); ?>
       </div>
-      <div class="three columns">
+  </section>
+  <section class="row sponsors2">
+      <div class="six columns">
         <?php dynamic_sidebar('sponsor3-widget'); ?>
       </div>
-      <div class="three columns">
+      <div class="six columns">
         <?php dynamic_sidebar('sponsor4-widget'); ?>
       </div>
   </section>
