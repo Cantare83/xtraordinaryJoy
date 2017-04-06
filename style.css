@@ -724,3 +724,58 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     text-align: center;
     color: #7f7f7f;
   }
+
+/* Hover Effect Modification Tests */
+
+@media (min-width: 300px) {
+    .ih-item.circle.effect9 .info h3,
+    .ih-item.circle.effect19 .info h3 {
+        height: 0;
+    }
+
+    .ih-item.circle .info h3 {
+        line-height: 1em;
+    }
+
+    .circle .info h3 {
+        font-size: 1em;
+    }
+
+    .ih-item.circle.effect9 .info p,
+    .ih-item.circle.effect19 .info p {
+        border: none;
+    }
+
+    .circle .info p {
+        font-size: 0.65em;
+        line-height: 1.2em;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 500px) {
+  .ih-item.circle.effect9 .info h3,
+  .ih-item.circle.effect19 .info h3 {
+      height: 110px;
+  }
+
+  .ih-item.circle .info h3 {
+      line-height: 17px;
+  }
+
+  .circle .info h3 {
+      font-size: 18px;
+  }
+
+  .ih-item.circle.effect9 .info p,
+  .ih-item.circle.effect19 .info p {
+      border: none;
+  }
+
+  .circle .info p {
+      font-size: 15px;
+      line-height: 1.2em;
+      margin: auto;
+  }
+}
