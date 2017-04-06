@@ -241,6 +241,16 @@ register_sidebar( array(
   'after_title'   => '</h3>'
 ));
 
+register_sidebar( array(
+'name'          => ('Sponsor Image Widget'),
+'id'            => 'sponsorimage-widget',
+'description'   => 'Widget sponsor image',
+'before_widget' => '<div class="sponsorimage-widget">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
   register_sidebar( array(
   'name'          => ('Sponsor 1 Widget'),
   'id'            => 'sponsor1-widget',

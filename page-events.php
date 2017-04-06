@@ -40,8 +40,11 @@ get_header(); ?>
 <!-- End of Become a Sponsor Section -->
   <section class="row">  <!-- Sponsor Section -->
     <div class="sponsorsection">
-      <div class="tweleve columns">
+      <div class="six columns">
         <?php dynamic_sidebar('sponsortext-widget'); ?>
+      </div>
+      <div class="six columns">
+        <?php dynamic_sidebar('sponsorimage-widget'); ?>
       </div>
     </div>
   </section>
