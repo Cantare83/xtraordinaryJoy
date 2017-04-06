@@ -593,8 +593,9 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   color: #ff3366;
 }
 
-.sponsorsection h3 {
-  text-align: center;
+.sponsorsection {
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .flex-control-nav {
