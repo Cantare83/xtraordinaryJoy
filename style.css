@@ -598,6 +598,14 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-bottom: 1%;
 }
 
+.sponsorboxes p {
+  text-align: justify;
+}
+
+.sponsorboxes h6 {
+  text-align: center;
+}
+
 .flex-control-nav {
   bottom: -15px;
   line-height: 1px;

@@ -48,7 +48,8 @@ get_header(); ?>
       </div>
     </div>
   </section>
-  <section class="row"> <!--Sponsor Boxes 4-->
+<div class="sponsorboxes">
+  <section class="row"> <!--Sponsor Boxes-->
       <div class="six columns">
         <?php dynamic_sidebar('sponsor1-widget'); ?>
       </div>
@@ -64,4 +65,5 @@ get_header(); ?>
         <?php dynamic_sidebar('sponsor4-widget'); ?>
       </div>
   </section>
+</div>
 <?php get_footer(); ?>

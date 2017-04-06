@@ -5,8 +5,10 @@
         <div class="researchtitle">
           <h3>Research and Resources</h3>
         </div>
-        <div class="tweleve columns">
-            <?php dynamic_sidebar('resources-widget'); ?>
+        <div class="resourcestext">
+          <div class="tweleve columns">
+              <?php dynamic_sidebar('resources-widget'); ?>
+          </div>
         </div>
         <div class="resourcesbox">
           <div class="four columns">
