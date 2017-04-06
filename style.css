@@ -684,6 +684,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
   .resourcestext p {
     text-align: justify;
+    margin-left: 0;
   }
 
   #colorchange {
