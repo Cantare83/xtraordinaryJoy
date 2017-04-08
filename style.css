@@ -284,7 +284,6 @@ nav {
 /*--.about-image2-widget figure {
     margin: 0;
 }
-
 .about-image2-widget figcaption {
     text-align: center;
 }--*/
@@ -647,10 +646,18 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     width: 27%;
 }
 
+<<<<<<< HEAD
 .footerLogos {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
 }
+||||||| merged common ancestors
+.footerLogos, .footerResources {
+    border-top: solid .5px #7f7f7f;
+    border-bottom: solid .5px #7f7f7f;
+}
+=======
+>>>>>>> e1f0b0f8106af515027f57afa60f3106fdc1a899
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
@@ -754,4 +761,26 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   .copyright {
     text-align: center;
     color: #7f7f7f;
+  }
+
+  /* Hover Effect Removal from Mobile */
+
+  @media (max-width: 400px) {
+
+    .info {
+      display: none;
+    }
+
+    .info p, .info h3 {
+      display: none;
+    }
+
+    .info p, .info h3, .mask1, .mask2 {
+      transform: none;
+      visibility: hidden;
+    }
+
+    .info img {
+      transform: none;
+    }
   }
