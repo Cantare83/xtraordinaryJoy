@@ -222,12 +222,13 @@ nav {
     border-radius: 50%;
 }
 
-.hpAbout, .events-ball {
+.hpAbout, .events-ball, .footerResources {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
 }
-.sponsor-area, .footerResources, .footerLogos {
-    border-bottom: .5px #7f7f7f;
+
+ .footerLogos {
+    border-bottom: solid .5px #7f7f7f;
 }
 
 .hpEvents {
