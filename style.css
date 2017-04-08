@@ -281,7 +281,6 @@ nav {
 /*--.about-image2-widget figure {
     margin: 0;
 }
-
 .about-image2-widget figcaption {
     text-align: center;
 }--*/
@@ -752,4 +751,26 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   .copyright {
     text-align: center;
     color: #7f7f7f;
+  }
+
+  /* Hover Effect Removal from Mobile */
+
+  @media (max-width: 400px) {
+
+    .info {
+      display: none;
+    }
+
+    .info p, .info h3 {
+      display: none;
+    }
+
+    .info p, .info h3, .mask1, .mask2 {
+      transform: none;
+      visibility: hidden;
+    }
+
+    .info img {
+      transform: none;
+    }
   }
