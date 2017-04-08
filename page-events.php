@@ -4,7 +4,7 @@
 
 get_header(); ?>
 <!-- Events Header Section -->
-    <section class="row-Eventshead">
+    <section class="row Eventshead">
       <div class="events1">
         <div class="twelve columns">
             <?php dynamic_sidebar('eventstop-widget'); ?>
@@ -38,7 +38,7 @@ get_header(); ?>
   </section>
 <!-- End Ball Section -->
 <!-- End of Become a Sponsor Section -->
-  <section class="row">  <!-- Sponsor Section -->
+  <section class="row sponsor-area">  <!-- Sponsor Section -->
     <div class="sponsorsection">
       <div class="six columns">
         <?php dynamic_sidebar('sponsortext-widget'); ?>

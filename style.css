@@ -213,7 +213,7 @@ nav {
 
 /*-- Index Page --*/
 
-.hpIntro, .hpEvents, .hpSponsor, .hpAbout {
+.hpIntro, .hpEvents, .hpSponsor, .hpAbout, .events-ball, .events-foosball, .sponsor-area {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -222,7 +222,7 @@ nav {
     border-radius: 50%;
 }
 
-.hpAbout {
+.hpAbout, .events-ball {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
 }
@@ -551,6 +551,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 .events1 {
   margin-bottom: 2%;
+  margin-top: 1%;
 }
 
 .eventstop-widget {
