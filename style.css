@@ -213,7 +213,7 @@ nav {
 
 /*-- Index Page --*/
 
-.hpIntro, .hpEvents, .hpSponsor, .hpAbout, .events-ball, .events-foosball, .footerLogos, .footerResources .sponsor-area {
+.hpIntro, .hpEvents, .hpSponsor, .hpAbout, .events-ball, .events-foosball, .footerLogos, .footerResources, .sponsor-area {
     padding-top: 40px;
     padding-bottom: 40px;
 }
