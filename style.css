@@ -213,7 +213,7 @@ nav {
 
 /*-- Index Page --*/
 
-.hpIntro, .hpEvents, .hpSponsor, .hpAbout, .events-ball, .events-foosball, .sponsor-area {
+.hpIntro, .hpEvents, .hpSponsor, .hpAbout, .events-ball, .events-foosball, .footerLogos, .footerResources .sponsor-area {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -225,6 +225,9 @@ nav {
 .hpAbout, .events-ball {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
+}
+.sponsor-area, .footerResources, .footerLogos {
+    border-bottom: .5px #7f7f7f;
 }
 
 .hpEvents {
@@ -551,7 +554,6 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
 .events1 {
   margin-bottom: 2%;
-  margin-top: 1%;
 }
 
 .eventstop-widget {
@@ -577,9 +579,9 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
   margin-bottom: 2%;
   border-bottom: .5px solid #7f7f7f;
 }
-.events-ball, .events-foosball {
+/*.events-ball, .events-foosball {
   margin-top: 2%;
-}
+}*/
 
 .events-difference {
   padding-bottom: 2%;
@@ -612,10 +614,10 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 }
 /*-----Footer------*/
 
-.footer-container {
+/*.footer-container {
   border-top: solid .5px #7f7f7f;
   padding-top: 2%;
-}
+}*/
 
 .researchtitle {
   text-align: center;
@@ -645,7 +647,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     width: 27%;
 }
 
-.footerLogos, .footerResources {
+.footerLogos {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
 }
