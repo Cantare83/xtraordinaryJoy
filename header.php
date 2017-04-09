@@ -18,7 +18,7 @@
                 <a href="<?php $url = home_url('/'); echo $url; ?>"><img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/images/xtraordinaryJoyLogo.png" alt="Xtraordinary Joy Logo" /></a>
             </div>
             <div class="four columns headerInfo">
-              <p>info@xtraordinaryjoy.org</p>
+              <p><a href="mailto:xtraordinaryjoy.org" target="_blank">info@xtraordinaryjoy.org</a></p>
             </div>
             <div class="three columns">
               <a class="button" href="http://www.chrisihendricks.net/xtraordinaryjoy/donations/donate-today/">Donate</a>

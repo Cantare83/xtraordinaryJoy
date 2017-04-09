@@ -282,13 +282,6 @@ nav {
     border-top: solid #7f7f7f .5px;
 }
 
-/*--.about-image2-widget figure {
-    margin: 0;
-}
-.about-image2-widget figcaption {
-    text-align: center;
-}--*/
-
 /*-- Contact Page --*/
 
 .contactcontainer {
@@ -538,8 +531,6 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     display: block;
 }
 
-
-
 /*-----Search------*/
 
 .searchresult {
@@ -646,18 +637,11 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     width: 27%;
 }
 
-<<<<<<< HEAD
-.footerLogos {
-    border-top: solid .5px #7f7f7f;
-    border-bottom: solid .5px #7f7f7f;
-}
-||||||| merged common ancestors
 .footerLogos, .footerResources {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
 }
-=======
->>>>>>> e1f0b0f8106af515027f57afa60f3106fdc1a899
+
   @media (min-width: 768px){
       .resources1, .resources2, .resources3 {
         width: auto;
@@ -693,7 +677,6 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
       margin-bottom: 3px;
     }
 }
-
 
   .resourcesbox {
     align-content: center;
