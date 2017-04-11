@@ -648,9 +648,13 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     width: 27%;
 }
 
-.footerLogos, .footerResources {
+ .footerResources {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
+}
+
+.footerLogos {
+   border-bottom: solid .5px #7f7f7f;
 }
 
   @media (min-width: 768px){
