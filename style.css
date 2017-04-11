@@ -767,3 +767,36 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
       transform: none;
     }
   }
+
+  /* Hover Effect Text Modification */
+
+  @media (min-width: 300px) {
+      .info h3 {
+          height: 0;
+          line-height: 1em;
+          font-size: 1em;
+      }
+
+      .info p {
+          border: none;
+          font-size: 0.65em;
+          line-height: 1.2em;
+          width: 80%;
+          margin: auto;
+      }
+  }
+
+  @media (min-width: 500px) {
+    .info h3 {
+        height: 110px;
+        line-height: 17px;
+        font-size: 18px;
+    }
+
+    .info p {
+        border: none;
+        font-size: 15px;
+        line-height: 1.2em;
+        margin: auto;
+    }
+  }
