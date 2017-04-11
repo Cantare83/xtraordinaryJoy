@@ -531,6 +531,17 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     display: block;
 }
 
+/*-----Blog Nav Links------*/
+
+.postlinks li {
+    padding: 1em;
+}
+
+.postlinks ul {
+    margin: 1em;
+    text-align: center;
+}
+
 /*-----Search------*/
 
 .searchresult {

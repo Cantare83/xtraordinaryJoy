@@ -21,11 +21,19 @@
                       </div>
                 </div>
                 <?php the_content(); ?>
-                <?php add_breadcrumbs(); ?>
+
+                <div class ="postlinks">
+                    <ul>
+                        <li><?php previous_post_link(); ?></li>
+                        <li><?php next_post_link(); ?></li>
+                    </ul>
+                </div>
+
             <?php
               }
             }
             ?>
+
 <!-- End Page PHP -->
 
         </div>
