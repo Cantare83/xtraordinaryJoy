@@ -786,6 +786,8 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
           height: 0;
           line-height: 1em;
           font-size: 1em;
+          font-weight: 700;
+          height: 0;
       }
 
       .info p {
@@ -801,7 +803,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     .info h3 {
         height: 110px;
         line-height: 17px;
-        font-size: 18px;
+        font-size: 1.2em;
     }
 
     .info p {
