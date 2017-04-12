@@ -244,6 +244,10 @@ nav {
     padding-top: 30px;
 }
 
+.ih-item.square.effect4 .info p {
+    padding: 0;
+}
+
 /*-- Donation Form --*/
 
 #give-form-41-content {
@@ -648,9 +652,13 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
     width: 27%;
 }
 
-.footerLogos, .footerResources {
+ .footerResources {
     border-top: solid .5px #7f7f7f;
     border-bottom: solid .5px #7f7f7f;
+}
+
+.footerLogos {
+   border-bottom: solid .5px #7f7f7f;
 }
 
   @media (min-width: 768px){
