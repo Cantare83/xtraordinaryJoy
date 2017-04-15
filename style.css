@@ -771,7 +771,7 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
   /* Hover Effect Removal from Mobile */
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
 
     .info {
       display: none;
@@ -793,33 +793,20 @@ div.wpcf7-response-output, div.wpcf7-validation-errors {
 
   /* Hover Effect Text Modification */
 
-  @media (min-width: 300px) {
-      .info h3 {
-          height: 0;
-          line-height: 1em;
-          font-size: 1em;
-          font-weight: 700;
-          height: 0;
-      }
-
-      .info p {
-          border: none;
-          font-size: 0.65em;
-          line-height: 1.2em;
-          width: 80%;
-          margin: auto;
-      }
-  }
-
   @media (min-width: 500px) {
+
+    .element.style h3 {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+
     .info h3 {
-        height: 110px;
-        line-height: 17px;
-        font-size: 1.2em;
+        height: 90px;
+        font-size: 2em;
+        line-height: 1.2em;
     }
 
     .info p {
-        border: none;
         font-size: 15px;
         line-height: 1.2em;
         margin: auto;
